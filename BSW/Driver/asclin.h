@@ -2,8 +2,6 @@
 #define BSW_DRIVER_ASCLIN_H_
 
 
-#define numerator 576
-#define denominator 3125
 
 #define ISR_PRIORITY_ASCLIN0_RX 18
 #define ISR_PRIORITY_ASCLIN0_TX 19
