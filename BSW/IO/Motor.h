@@ -10,6 +10,6 @@ void Motor_movChB(int dir);
 void Motor_stopChB(void);
 void Motor_movChB_PWM(int duty, int dir);
 
-void Motor_keypad_PWM(char c, int duty);
+void Motor_keypad_PWM(char dir, int duty);
 
 #endif /* BSW_IO_MOTOR_H_ */

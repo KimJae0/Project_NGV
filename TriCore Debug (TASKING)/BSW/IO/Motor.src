@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc26524a --dep-file=Motor.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\First_project\\\\my_prj2 -IC:\\\\First_project\\\\my_prj2\\\\BSW -IC:\\\\First_project\\\\my_prj2\\\\BSW\\\\Driver -IC:\\\\First_project\\\\my_prj2\\\\BSW\\\\IO -IC:\\\\First_project\\\\my_prj2\\\\BSW\\\\etc -IC:\\\\First_project\\\\my_prj2\\\\Configurations -IC:\\\\First_project\\\\my_prj2\\\\Libraries -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Service -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o BSW/IO/Motor.src ../BSW/IO/Motor.c"
+	.compiler_invocation	"ctc -f cc13656a --dep-file=Motor.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\First_project\\\\my_prj2 -IC:\\\\First_project\\\\my_prj2\\\\BSW -IC:\\\\First_project\\\\my_prj2\\\\BSW\\\\Driver -IC:\\\\First_project\\\\my_prj2\\\\BSW\\\\IO -IC:\\\\First_project\\\\my_prj2\\\\BSW\\\\etc -IC:\\\\First_project\\\\my_prj2\\\\Configurations -IC:\\\\First_project\\\\my_prj2\\\\Libraries -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Service -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o BSW/IO/Motor.src ../BSW/IO/Motor.c"
 	.compiler_name		"ctc"
 	;source	'../BSW/IO/Motor.c'
 
@@ -13,40 +13,40 @@ $TC162
 	
 	.global	Motor_Init
 ; Function Motor_Init
-.L33:
+.L37:
 Motor_Init:	.type	func
 	movh.a	a15,#61444
 	ld.bu	d0,[a15]@los(0xf003a217)
-.L191:
+.L141:
 	mov	d15,#16
-.L192:
+.L142:
 	insert	d15,d0,d15,#3,#5
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a217),d15
-.L193:
+.L143:
 	movh.a	a15,#61444
 	ld.bu	d0,[a15]@los(0xf003a216)
-.L194:
+.L144:
 	mov	d15,#16
-.L195:
+.L145:
 	insert	d15,d0,d15,#3,#5
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a216),d15
-.L196:
+.L146:
 	call	GtmAtomPwm_Init
-.L197:
+.L147:
 	mov	d4,#0
 	call	GtmAtomPwmA_SetDutyCycle
-.L198:
+.L148:
 	mov	d4,#0
 	call	GtmAtomPwmB_SetDutyCycle
-.L199:
+.L149:
 	ret
-.L92:
+.L96:
 	
 __Motor_Init_function_end:
 	.size	Motor_Init,__Motor_Init_function_end-Motor_Init
-.L56:
+.L60:
 	; End of function
 	
 	.sdecl	'.text.Motor.Motor_movChA',code,cluster('Motor_movChA')
@@ -55,43 +55,43 @@ __Motor_Init_function_end:
 	
 	.global	Motor_movChA
 ; Function Motor_movChA
-.L35:
+.L39:
 Motor_movChA:	.type	func
 	jeq	d4,#0,.L2
-.L204:
+.L154:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L205:
+.L155:
 	or	d15,#2
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
-.L206:
+.L156:
 	j	.L3
 .L2:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L207:
+.L157:
 	insert	d15,d15,#0,#1,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
 .L3:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L208:
+.L158:
 	insert	d15,d15,#0,#7,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L209:
+.L159:
 	mov	d4,#1000
-.L110:
+.L114:
 	call	GtmAtomPwm_SetDutyCycle
-.L210:
+.L160:
 	ret
-.L93:
+.L97:
 	
 __Motor_movChA_function_end:
 	.size	Motor_movChA,__Motor_movChA_function_end-Motor_movChA
-.L61:
+.L65:
 	; End of function
 	
 	.sdecl	'.text.Motor.Motor_stopChA',code,cluster('Motor_stopChA')
@@ -100,21 +100,21 @@ __Motor_movChA_function_end:
 	
 	.global	Motor_stopChA
 ; Function Motor_stopChA
-.L37:
+.L41:
 Motor_stopChA:	.type	func
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L215:
+.L165:
 	or	d15,#128
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L216:
+.L166:
 	ret
-.L96:
+.L100:
 	
 __Motor_stopChA_function_end:
 	.size	Motor_stopChA,__Motor_stopChA_function_end-Motor_stopChA
-.L66:
+.L70:
 	; End of function
 	
 	.sdecl	'.text.Motor.Motor_movChA_PWM',code,cluster('Motor_movChA_PWM')
@@ -123,45 +123,45 @@ __Motor_stopChA_function_end:
 	
 	.global	Motor_movChA_PWM
 ; Function Motor_movChA_PWM
-.L39:
+.L43:
 Motor_movChA_PWM:	.type	func
 	mov	d15,d5
-.L113:
+.L117:
 	mul	d4,d4,#10
-.L112:
+.L116:
 	call	GtmAtomPwmA_SetDutyCycle
-.L111:
+.L115:
 	jeq	d15,#0,.L4
-.L221:
+.L171:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L114:
+.L118:
 	or	d15,#2
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
-.L222:
+.L172:
 	j	.L5
 .L4:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L115:
+.L119:
 	insert	d15,d15,#0,#1,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
 .L5:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L223:
+.L173:
 	insert	d15,d15,#0,#7,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L224:
+.L174:
 	ret
-.L97:
+.L101:
 	
 __Motor_movChA_PWM_function_end:
 	.size	Motor_movChA_PWM,__Motor_movChA_PWM_function_end-Motor_movChA_PWM
-.L71:
+.L75:
 	; End of function
 	
 	.sdecl	'.text.Motor.Motor_movChB',code,cluster('Motor_movChB')
@@ -170,43 +170,43 @@ __Motor_movChA_PWM_function_end:
 	
 	.global	Motor_movChB
 ; Function Motor_movChB
-.L41:
+.L45:
 Motor_movChB:	.type	func
 	jeq	d4,#0,.L6
-.L229:
+.L179:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L230:
+.L180:
 	or	d15,#4
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
-.L231:
+.L181:
 	j	.L7
 .L6:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L232:
+.L182:
 	insert	d15,d15,#0,#2,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
 .L7:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L233:
+.L183:
 	insert	d15,d15,#0,#6,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L234:
+.L184:
 	mov	d4,#1000
-.L116:
+.L120:
 	call	GtmAtomPwm_SetDutyCycle
-.L235:
+.L185:
 	ret
-.L100:
+.L104:
 	
 __Motor_movChB_function_end:
 	.size	Motor_movChB,__Motor_movChB_function_end-Motor_movChB
-.L76:
+.L80:
 	; End of function
 	
 	.sdecl	'.text.Motor.Motor_stopChB',code,cluster('Motor_stopChB')
@@ -215,21 +215,21 @@ __Motor_movChB_function_end:
 	
 	.global	Motor_stopChB
 ; Function Motor_stopChB
-.L43:
+.L47:
 Motor_stopChB:	.type	func
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L240:
+.L190:
 	or	d15,#64
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L241:
+.L191:
 	ret
-.L102:
+.L106:
 	
 __Motor_stopChB_function_end:
 	.size	Motor_stopChB,__Motor_stopChB_function_end-Motor_stopChB
-.L81:
+.L85:
 	; End of function
 	
 	.sdecl	'.text.Motor.Motor_movChB_PWM',code,cluster('Motor_movChB_PWM')
@@ -238,45 +238,45 @@ __Motor_stopChB_function_end:
 	
 	.global	Motor_movChB_PWM
 ; Function Motor_movChB_PWM
-.L45:
+.L49:
 Motor_movChB_PWM:	.type	func
 	mov	d15,d5
-.L119:
+.L123:
 	mul	d4,d4,#10
-.L118:
+.L122:
 	call	GtmAtomPwmB_SetDutyCycle
-.L117:
+.L121:
 	jeq	d15,#0,.L8
-.L246:
+.L196:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L120:
+.L124:
 	or	d15,#4
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
-.L247:
+.L197:
 	j	.L9
 .L8:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L121:
+.L125:
 	insert	d15,d15,#0,#2,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
 .L9:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L248:
+.L198:
 	insert	d15,d15,#0,#6,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L249:
+.L199:
 	ret
-.L103:
+.L107:
 	
 __Motor_movChB_PWM_function_end:
 	.size	Motor_movChB_PWM,__Motor_movChB_PWM_function_end-Motor_movChB_PWM
-.L86:
+.L90:
 	; End of function
 	
 	.sdecl	'.text.Motor.Motor_keypad_PWM',code,cluster('Motor_keypad_PWM')
@@ -285,228 +285,198 @@ __Motor_movChB_PWM_function_end:
 	
 	.global	Motor_keypad_PWM
 ; Function Motor_keypad_PWM
-.L47:
+.L51:
 Motor_keypad_PWM:	.type	func
-	mov	d15,d4
-.L124:
-	mov	d8,d5
-.L126:
-	mov	d0,#56
-.L254:
-	jne	d15,d0,.L10
-.L255:
-	mov	d5,#1
-.L123:
-	mov	d4,d8
-.L122:
-	call	Motor_movChA_PWM
-.L127:
-	mov	d5,#1
-	mov	d4,d8
+	mov	d8,d4
 .L128:
-	call	Motor_movChB_PWM
-.L129:
-	mov	d4,d15
-.L130:
-	call	Asclin1_OutUart
-.L131:
-	j	.L11
-.L10:
-	mov	d0,#50
-.L256:
-	jne	d15,d0,.L12
-.L257:
-	mov	d5,#0
-.L133:
-	mov	d4,d8
-.L132:
-	call	Motor_movChA_PWM
-.L134:
-	mov	d5,#0
-	mov	d4,d8
-.L135:
-	call	Motor_movChB_PWM
-.L136:
-	mov	d4,d15
-.L137:
-	call	Asclin1_OutUart
-.L138:
-	j	.L13
-.L12:
-	mov	d0,#52
-.L258:
-	jne	d15,d0,.L14
-.L259:
-	mov	d5,#0
-.L140:
-	mov	d4,d8
-.L139:
-	call	Motor_movChA_PWM
-.L141:
-	mov	d5,#1
-	mov	d4,d8
-.L142:
-	call	Motor_movChB_PWM
-.L143:
-	mov	d4,d15
-.L144:
-	call	Asclin1_OutUart
-.L145:
-	j	.L15
-.L14:
-	mov	d0,#54
-.L260:
-	jne	d15,d0,.L16
-.L261:
-	mov	d5,#1
-.L147:
-	mov	d4,d8
-.L146:
-	call	Motor_movChA_PWM
-.L148:
-	mov	d5,#0
-	mov	d4,d8
-.L149:
-	call	Motor_movChB_PWM
-.L150:
-	mov	d4,d15
-.L151:
-	call	Asclin1_OutUart
-.L152:
-	j	.L17
-.L16:
-	mov	d0,#53
-.L262:
-	jne	d15,d0,.L18
-.L263:
-	mov	d8,#0
-.L154:
-	mov	d5,#1
-	mov	d4,d8
-.L153:
-	call	Motor_movChA_PWM
-.L155:
-	mov	d5,#0
-	mov	d4,d8
-.L156:
-	call	Motor_movChB_PWM
-.L157:
-	mov	d4,d15
-.L158:
-	call	Asclin1_OutUart
-.L159:
-	j	.L19
-.L18:
-	mov	d0,#55
-.L264:
-	jne	d15,d0,.L20
-.L265:
-	call	Motor_stopChA
-.L160:
-	mov	d5,#1
-	mov	d4,d8
-.L161:
-	call	Motor_movChB_PWM
-.L162:
-	mov	d4,d15
-.L163:
-	call	Asclin1_OutUart
-.L164:
-	j	.L21
-.L20:
-	mov	d0,#57
-.L266:
-	jne	d15,d0,.L22
-.L267:
-	mov	d5,#1
-.L166:
-	mov	d4,d8
-.L165:
-	call	Motor_movChA_PWM
-.L167:
-	call	Motor_stopChB
-.L268:
-	mov	d4,d15
-.L168:
-	call	Asclin1_OutUart
-.L169:
-	j	.L23
-.L22:
-	mov	d0,#49
-.L269:
-	jne	d15,d0,.L24
-.L270:
-	call	Motor_stopChA
-.L170:
-	mov	d5,#0
-	mov	d4,d8
-.L171:
-	call	Motor_movChB_PWM
-.L172:
-	mov	d4,d15
-.L173:
-	call	Asclin1_OutUart
-.L174:
-	j	.L25
-.L24:
-	mov	d0,#51
-.L271:
-	jne	d15,d0,.L26
-.L272:
-	mov	d5,#0
-.L176:
-	mov	d4,d8
-.L175:
-	call	Motor_movChA_PWM
-.L177:
-	call	Motor_stopChB
-.L273:
-	mov	d4,d15
-.L178:
-	call	Asclin1_OutUart
-.L179:
-	j	.L27
-.L26:
-	mov	d0,#66
-.L274:
-	jne	d15,d0,.L28
-.L275:
-	jlt	d8,#1,.L29
-.L276:
-	add	d15,d8,#-10
-.L125:
-	mov	d5,#1
-	mov	d4,d15
-.L180:
-	call	Motor_movChA_PWM
-.L181:
-	mov	d5,#1
-	mov	d4,d15
-.L182:
-	call	Motor_movChB_PWM
-.L29:
-	j	.L30
-.L28:
-	j	.L31
-.L30:
-.L27:
-.L25:
-.L23:
-.L21:
-.L19:
-.L17:
-.L15:
-.L13:
+	mov	d15,#66
+.L204:
+	jeq	d15,d8,.L10
+.L205:
+	mov	d15,#53
+.L206:
+	jeq	d15,d8,.L11
+.L207:
+	movh.a	a15,#@his(_999001_lastDir)
+	lea	a15,[a15]@los(_999001_lastDir)
+.L208:
+	st.b	[a15],d8
 .L11:
+.L10:
+	mov	d15,#50
+	jeq	d15,d8,.L12
+.L209:
+	mov	d15,#52
+	jeq	d15,d8,.L13
+.L210:
+	mov	d15,#53
+	jeq	d15,d8,.L14
+.L211:
+	mov	d15,#54
+	jeq	d15,d8,.L15
+.L212:
+	mov	d15,#56
+	jeq	d15,d8,.L16
+.L213:
+	mov	d15,#66
+	jeq	d15,d8,.L17
+	j	.L18
+.L16:
+.L12:
+.L13:
+.L15:
+.L14:
+	j	.L19
+.L17:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d15,[a15]
+.L214:
+	jlt	d15,#1,.L20
+.L215:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d0,[a15]
+.L216:
+	mov	d15,#10
+.L217:
+	jge	d15,d0,.L21
+.L218:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d15,[a15]
+.L219:
+	add	d15,d15,#-10
+.L220:
+	j	.L22
+.L21:
+	mov	d15,#0
+.L22:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+.L221:
+	st.w	[a15],d15
+.L20:
+	movh.a	a15,#@his(_999001_lastDir)
+	lea	a15,[a15]@los(_999001_lastDir)
+	ld.b	d8,[a15]0
+.L126:
+	j	.L23
+.L18:
+	j	.L24
+.L23:
+.L19:
+	mov	d15,#50
+	jeq	d15,d8,.L25
+.L222:
+	mov	d15,#52
+	jeq	d15,d8,.L26
+.L223:
+	mov	d15,#53
+	jeq	d15,d8,.L27
+.L224:
+	mov	d15,#54
+	jeq	d15,d8,.L28
+.L225:
+	mov	d15,#56
+	jeq	d15,d8,.L29
+	j	.L30
+.L29:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d4,[a15]
+.L226:
+	mov	d5,#1
+.L127:
+	call	Motor_movChA_PWM
+.L227:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d4,[a15]
+.L228:
+	mov	d5,#1
+	call	Motor_movChB_PWM
+.L229:
+	j	.L31
+.L25:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d4,[a15]
+.L230:
+	mov	d5,#0
+.L129:
+	call	Motor_movChA_PWM
+.L231:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d4,[a15]
+.L232:
+	mov	d5,#0
+	call	Motor_movChB_PWM
+.L233:
+	j	.L32
+.L26:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d4,[a15]
+.L234:
+	mov	d5,#0
+.L130:
+	call	Motor_movChA_PWM
+.L235:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d4,[a15]
+.L236:
+	mov	d5,#1
+	call	Motor_movChB_PWM
+.L237:
+	j	.L33
+.L28:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d4,[a15]
+.L238:
+	mov	d5,#1
+.L131:
+	call	Motor_movChA_PWM
+.L239:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d4,[a15]
+.L240:
+	mov	d5,#0
+	call	Motor_movChB_PWM
+.L241:
+	j	.L34
+.L27:
+	call	Motor_stopChA
+.L132:
+	call	Motor_stopChB
+.L242:
+	j	.L35
+.L30:
+.L35:
+.L34:
+.L33:
+.L32:
 .L31:
+	extr.u	d4,d8,#0,#8
+	call	Asclin1_OutUart
+.L24:
 	ret
-.L106:
+.L110:
 	
 __Motor_keypad_PWM_function_end:
 	.size	Motor_keypad_PWM,__Motor_keypad_PWM_function_end-Motor_keypad_PWM
-.L91:
+.L95:
 	; End of function
 	
+	.sdecl	'.data.Motor._999001_lastDir',data,cluster('_999001_lastDir')
+	.sect	'.data.Motor._999001_lastDir'
+_999001_lastDir:	.type	object
+	.size	_999001_lastDir,1
+	.byte	53
 	.calls	'Motor_Init','GtmAtomPwm_Init'
 	.calls	'Motor_Init','GtmAtomPwmA_SetDutyCycle'
 	.calls	'Motor_Init','GtmAtomPwmB_SetDutyCycle'
@@ -516,9 +486,9 @@ __Motor_keypad_PWM_function_end:
 	.calls	'Motor_movChB_PWM','GtmAtomPwmB_SetDutyCycle'
 	.calls	'Motor_keypad_PWM','Motor_movChA_PWM'
 	.calls	'Motor_keypad_PWM','Motor_movChB_PWM'
-	.calls	'Motor_keypad_PWM','Asclin1_OutUart'
 	.calls	'Motor_keypad_PWM','Motor_stopChA'
 	.calls	'Motor_keypad_PWM','Motor_stopChB'
+	.calls	'Motor_keypad_PWM','Asclin1_OutUart'
 	.calls	'Motor_Init','',0
 	.calls	'Motor_movChA','',0
 	.calls	'Motor_stopChA','',0
@@ -531,20 +501,21 @@ __Motor_keypad_PWM_function_end:
 	.extern	GtmAtomPwm_SetDutyCycle
 	.extern	GtmAtomPwmA_SetDutyCycle
 	.extern	GtmAtomPwmB_SetDutyCycle
+	.extern	currentDuty
 	.calls	'Motor_keypad_PWM','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L49:
-	.word	170772
+.L53:
+	.word	170799
 	.half	3
-	.word	.L50
+	.word	.L54
 	.byte	4
-.L48:
+.L52:
 	.byte	1
 	.byte	'../BSW/IO/Motor.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\First_project\\my_prj2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L51
+	.word	.L55
 	.byte	2,1,1,3
 	.word	163
 	.byte	4
@@ -579,7 +550,7 @@ __Motor_keypad_PWM_function_end:
 	.word	309
 	.byte	6,0,7
 	.byte	'unsigned int',0,4,7
-.L94:
+.L98:
 	.byte	7
 	.byte	'int',0,4,5,7
 	.byte	'unsigned int',0,4,7,10
@@ -5522,7 +5493,7 @@ __Motor_keypad_PWM_function_end:
 	.byte	'node',0,12,178,15,61
 	.word	29540
 	.byte	6,0
-.L107:
+.L111:
 	.byte	7
 	.byte	'char',0,1,6,20
 	.word	171
@@ -25259,10 +25230,15 @@ __Motor_keypad_PWM_function_end:
 	.byte	1,3,35,213,1,0,27
 	.byte	'IfxCan_Can_NodeConfig',0,29,233,5,3
 	.word	170449
-	.byte	0
+	.byte	14
+	.word	443
+	.byte	30
+	.byte	'currentDuty',0,16,93,21
+	.word	170775
+	.byte	1,1,0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L50:
+.L54:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
 	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,19,1,3,8,58,15,59,15
@@ -25271,15 +25247,15 @@ __Motor_keypad_PWM_function_end:
 	.byte	15,57,15,11,15,0,0,18,40,0,3,8,28,13,0,0,19,11,1,0,0,20,46,1,49,19,0,0,21,5,0,49,19,0,0,22,29,1,49,19
 	.byte	0,0,23,11,0,49,19,0,0,24,38,0,73,19,0,0,25,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,26,46
 	.byte	0,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,27,22,0,3,8,58,15,59,15,57,15,73,19,0,0,28,21,0,54
-	.byte	15,0,0,29,19,1,58,15,59,15,57,15,11,15,0,0,0
+	.byte	15,0,0,29,19,1,58,15,59,15,57,15,11,15,0,0,30,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L51:
-	.word	.L184-.L183
-.L183:
+.L55:
+	.word	.L134-.L133
+.L133:
 	.half	3
-	.word	.L186-.L185
-.L185:
+	.word	.L136-.L135
+.L135:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg',0
 	.byte	'C:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std',0
@@ -25321,101 +25297,482 @@ __Motor_keypad_PWM_function_end:
 	.byte	0,0,0
 	.byte	'C:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\_Impl\\IfxSrc_cfg.h',0,0,0,0
 	.byte	'IfxCan_Can.h',0,5,0,0,0
-.L186:
-.L184:
+.L136:
+.L134:
 	.sdecl	'.debug_info',debug,cluster('Motor_Init')
 	.sect	'.debug_info'
-.L52:
+.L56:
 	.word	209
 	.half	3
-	.word	.L53
+	.word	.L57
 	.byte	4,1
 	.byte	'../BSW/IO/Motor.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\First_project\\my_prj2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L55,.L54
+	.word	.L59,.L58
 	.byte	2
-	.word	.L48
+	.word	.L52
 	.byte	3
-	.byte	'Motor_Init',0,1,5,6,1,1,1
-	.word	.L33,.L92,.L32
+	.byte	'Motor_Init',0,1,6,6,1,1,1
+	.word	.L37,.L96,.L36
 	.byte	4
-	.word	.L33,.L92
+	.word	.L37,.L96
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Motor_Init')
 	.sect	'.debug_abbrev'
-.L53:
+.L57:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Motor_Init')
 	.sect	'.debug_line'
-.L54:
-	.word	.L188-.L187
-.L187:
+.L58:
+	.word	.L138-.L137
+.L137:
 	.half	3
-	.word	.L190-.L189
-.L189:
+	.word	.L140-.L139
+.L139:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
-.L190:
+.L140:
 	.byte	5,23,7,0,5,2
-	.word	.L33
-	.byte	3,6,1,5,30,9
-	.half	.L191-.L33
+	.word	.L37
+	.byte	3,7,1,5,30,9
+	.half	.L141-.L37
 	.byte	1,5,28,9
-	.half	.L192-.L191
+	.half	.L142-.L141
 	.byte	1,5,23,9
-	.half	.L193-.L192
+	.half	.L143-.L142
 	.byte	3,1,1,5,30,9
-	.half	.L194-.L193
+	.half	.L144-.L143
 	.byte	1,5,28,9
-	.half	.L195-.L194
+	.half	.L145-.L144
 	.byte	1,5,20,9
-	.half	.L196-.L195
+	.half	.L146-.L145
 	.byte	3,3,1,5,30,9
-	.half	.L197-.L196
+	.half	.L147-.L146
 	.byte	3,3,1,9
-	.half	.L198-.L197
+	.half	.L148-.L147
 	.byte	3,1,1,5,1,9
-	.half	.L199-.L198
+	.half	.L149-.L148
 	.byte	3,1,1,7,9
-	.half	.L56-.L199
+	.half	.L60-.L149
 	.byte	0,1,1
-.L188:
+.L138:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_Init')
 	.sect	'.debug_ranges'
-.L55:
-	.word	-1,.L33,0,.L56-.L33,0,0
+.L59:
+	.word	-1,.L37,0,.L60-.L37,0,0
 	.sdecl	'.debug_info',debug,cluster('Motor_movChA')
 	.sect	'.debug_info'
-.L57:
+.L61:
 	.word	227
 	.half	3
-	.word	.L58
+	.word	.L62
 	.byte	4,1
 	.byte	'../BSW/IO/Motor.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\First_project\\my_prj2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L60,.L59
+	.word	.L64,.L63
 	.byte	2
-	.word	.L48
+	.word	.L52
 	.byte	3
-	.byte	'Motor_movChA',0,1,19,6,1,1,1
-	.word	.L35,.L93,.L34
+	.byte	'Motor_movChA',0,1,20,6,1,1,1
+	.word	.L39,.L97,.L38
 	.byte	4
-	.byte	'dir',0,1,19,23
-	.word	.L94,.L95
+	.byte	'dir',0,1,20,23
+	.word	.L98,.L99
 	.byte	5
-	.word	.L35,.L93
+	.word	.L39,.L97
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Motor_movChA')
 	.sect	'.debug_abbrev'
-.L58:
+.L62:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Motor_movChA')
 	.sect	'.debug_line'
-.L59:
+.L63:
+	.word	.L151-.L150
+.L150:
+	.half	3
+	.word	.L153-.L152
+.L152:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
+.L153:
+	.byte	5,5,7,0,5,2
+	.word	.L39
+	.byte	3,21,1,5,25,7,9
+	.half	.L154-.L39
+	.byte	3,2,1,5,29,9
+	.half	.L155-.L154
+	.byte	1,5,32,9
+	.half	.L156-.L155
+	.byte	1,5,25,9
+	.half	.L2-.L156
+	.byte	3,3,1,5,29,9
+	.half	.L157-.L2
+	.byte	1,5,21,9
+	.half	.L3-.L157
+	.byte	3,2,1,5,25,9
+	.half	.L158-.L3
+	.byte	1,5,29,9
+	.half	.L159-.L158
+	.byte	3,1,1,5,1,9
+	.half	.L160-.L159
+	.byte	3,1,1,7,9
+	.half	.L65-.L160
+	.byte	0,1,1
+.L151:
+	.sdecl	'.debug_ranges',debug,cluster('Motor_movChA')
+	.sect	'.debug_ranges'
+.L64:
+	.word	-1,.L39,0,.L65-.L39,0,0
+	.sdecl	'.debug_info',debug,cluster('Motor_stopChA')
+	.sect	'.debug_info'
+.L66:
+	.word	212
+	.half	3
+	.word	.L67
+	.byte	4,1
+	.byte	'../BSW/IO/Motor.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\First_project\\my_prj2\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L69,.L68
+	.byte	2
+	.word	.L52
+	.byte	3
+	.byte	'Motor_stopChA',0,1,33,6,1,1,1
+	.word	.L41,.L100,.L40
+	.byte	4
+	.word	.L41,.L100
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Motor_stopChA')
+	.sect	'.debug_abbrev'
+.L67:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Motor_stopChA')
+	.sect	'.debug_line'
+.L68:
+	.word	.L162-.L161
+.L161:
+	.half	3
+	.word	.L164-.L163
+.L163:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
+.L164:
+	.byte	5,21,7,0,5,2
+	.word	.L41
+	.byte	3,34,1,5,25,9
+	.half	.L165-.L41
+	.byte	1,5,1,9
+	.half	.L166-.L165
+	.byte	3,1,1,7,9
+	.half	.L70-.L166
+	.byte	0,1,1
+.L162:
+	.sdecl	'.debug_ranges',debug,cluster('Motor_stopChA')
+	.sect	'.debug_ranges'
+.L69:
+	.word	-1,.L41,0,.L70-.L41,0,0
+	.sdecl	'.debug_info',debug,cluster('Motor_movChA_PWM')
+	.sect	'.debug_info'
+.L71:
+	.word	248
+	.half	3
+	.word	.L72
+	.byte	4,1
+	.byte	'../BSW/IO/Motor.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\First_project\\my_prj2\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L74,.L73
+	.byte	2
+	.word	.L52
+	.byte	3
+	.byte	'Motor_movChA_PWM',0,1,40,6,1,1,1
+	.word	.L43,.L101,.L42
+	.byte	4
+	.byte	'duty',0,1,40,27
+	.word	.L98,.L102
+	.byte	4
+	.byte	'dir',0,1,40,37
+	.word	.L98,.L103
+	.byte	5
+	.word	.L43,.L101
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Motor_movChA_PWM')
+	.sect	'.debug_abbrev'
+.L72:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Motor_movChA_PWM')
+	.sect	'.debug_line'
+.L73:
+	.word	.L168-.L167
+.L167:
+	.half	3
+	.word	.L170-.L169
+.L169:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
+.L170:
+	.byte	5,6,7,0,5,2
+	.word	.L43
+	.byte	3,39,1,5,34,9
+	.half	.L117-.L43
+	.byte	3,3,1,5,5,9
+	.half	.L115-.L117
+	.byte	3,1,1,5,25,7,9
+	.half	.L171-.L115
+	.byte	3,2,1,5,29,9
+	.half	.L118-.L171
+	.byte	1,5,32,9
+	.half	.L172-.L118
+	.byte	1,5,25,9
+	.half	.L4-.L172
+	.byte	3,3,1,5,29,9
+	.half	.L119-.L4
+	.byte	1,5,21,9
+	.half	.L5-.L119
+	.byte	3,3,1,5,25,9
+	.half	.L173-.L5
+	.byte	1,5,1,9
+	.half	.L174-.L173
+	.byte	3,1,1,7,9
+	.half	.L75-.L174
+	.byte	0,1,1
+.L168:
+	.sdecl	'.debug_ranges',debug,cluster('Motor_movChA_PWM')
+	.sect	'.debug_ranges'
+.L74:
+	.word	-1,.L43,0,.L75-.L43,0,0
+	.sdecl	'.debug_info',debug,cluster('Motor_movChB')
+	.sect	'.debug_info'
+.L76:
+	.word	227
+	.half	3
+	.word	.L77
+	.byte	4,1
+	.byte	'../BSW/IO/Motor.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\First_project\\my_prj2\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L79,.L78
+	.byte	2
+	.word	.L52
+	.byte	3
+	.byte	'Motor_movChB',0,1,56,6,1,1,1
+	.word	.L45,.L104,.L44
+	.byte	4
+	.byte	'dir',0,1,56,23
+	.word	.L98,.L105
+	.byte	5
+	.word	.L45,.L104
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Motor_movChB')
+	.sect	'.debug_abbrev'
+.L77:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Motor_movChB')
+	.sect	'.debug_line'
+.L78:
+	.word	.L176-.L175
+.L175:
+	.half	3
+	.word	.L178-.L177
+.L177:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
+.L178:
+	.byte	5,5,7,0,5,2
+	.word	.L45
+	.byte	3,57,1,5,25,7,9
+	.half	.L179-.L45
+	.byte	3,2,1,5,29,9
+	.half	.L180-.L179
+	.byte	1,5,32,9
+	.half	.L181-.L180
+	.byte	1,5,25,9
+	.half	.L6-.L181
+	.byte	3,3,1,5,29,9
+	.half	.L182-.L6
+	.byte	1,5,21,9
+	.half	.L7-.L182
+	.byte	3,2,1,5,25,9
+	.half	.L183-.L7
+	.byte	1,5,29,9
+	.half	.L184-.L183
+	.byte	3,1,1,5,1,9
+	.half	.L185-.L184
+	.byte	3,1,1,7,9
+	.half	.L80-.L185
+	.byte	0,1,1
+.L176:
+	.sdecl	'.debug_ranges',debug,cluster('Motor_movChB')
+	.sect	'.debug_ranges'
+.L79:
+	.word	-1,.L45,0,.L80-.L45,0,0
+	.sdecl	'.debug_info',debug,cluster('Motor_stopChB')
+	.sect	'.debug_info'
+.L81:
+	.word	212
+	.half	3
+	.word	.L82
+	.byte	4,1
+	.byte	'../BSW/IO/Motor.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\First_project\\my_prj2\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L84,.L83
+	.byte	2
+	.word	.L52
+	.byte	3
+	.byte	'Motor_stopChB',0,1,69,6,1,1,1
+	.word	.L47,.L106,.L46
+	.byte	4
+	.word	.L47,.L106
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Motor_stopChB')
+	.sect	'.debug_abbrev'
+.L82:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Motor_stopChB')
+	.sect	'.debug_line'
+.L83:
+	.word	.L187-.L186
+.L186:
+	.half	3
+	.word	.L189-.L188
+.L188:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
+.L189:
+	.byte	5,21,7,0,5,2
+	.word	.L47
+	.byte	3,198,0,1,5,25,9
+	.half	.L190-.L47
+	.byte	1,5,1,9
+	.half	.L191-.L190
+	.byte	3,1,1,7,9
+	.half	.L85-.L191
+	.byte	0,1,1
+.L187:
+	.sdecl	'.debug_ranges',debug,cluster('Motor_stopChB')
+	.sect	'.debug_ranges'
+.L84:
+	.word	-1,.L47,0,.L85-.L47,0,0
+	.sdecl	'.debug_info',debug,cluster('Motor_movChB_PWM')
+	.sect	'.debug_info'
+.L86:
+	.word	248
+	.half	3
+	.word	.L87
+	.byte	4,1
+	.byte	'../BSW/IO/Motor.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\First_project\\my_prj2\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L89,.L88
+	.byte	2
+	.word	.L52
+	.byte	3
+	.byte	'Motor_movChB_PWM',0,1,76,6,1,1,1
+	.word	.L49,.L107,.L48
+	.byte	4
+	.byte	'duty',0,1,76,27
+	.word	.L98,.L108
+	.byte	4
+	.byte	'dir',0,1,76,37
+	.word	.L98,.L109
+	.byte	5
+	.word	.L49,.L107
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Motor_movChB_PWM')
+	.sect	'.debug_abbrev'
+.L87:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Motor_movChB_PWM')
+	.sect	'.debug_line'
+.L88:
+	.word	.L193-.L192
+.L192:
+	.half	3
+	.word	.L195-.L194
+.L194:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
+.L195:
+	.byte	5,6,7,0,5,2
+	.word	.L49
+	.byte	3,203,0,1,5,34,9
+	.half	.L123-.L49
+	.byte	3,3,1,5,5,9
+	.half	.L121-.L123
+	.byte	3,2,1,5,25,7,9
+	.half	.L196-.L121
+	.byte	3,2,1,5,29,9
+	.half	.L124-.L196
+	.byte	1,5,32,9
+	.half	.L197-.L124
+	.byte	1,5,25,9
+	.half	.L8-.L197
+	.byte	3,3,1,5,29,9
+	.half	.L125-.L8
+	.byte	1,5,21,9
+	.half	.L9-.L125
+	.byte	3,3,1,5,25,9
+	.half	.L198-.L9
+	.byte	1,5,1,9
+	.half	.L199-.L198
+	.byte	3,1,1,7,9
+	.half	.L90-.L199
+	.byte	0,1,1
+.L193:
+	.sdecl	'.debug_ranges',debug,cluster('Motor_movChB_PWM')
+	.sect	'.debug_ranges'
+.L89:
+	.word	-1,.L49,0,.L90-.L49,0,0
+	.sdecl	'.debug_info',debug,cluster('Motor_keypad_PWM')
+	.sect	'.debug_info'
+.L91:
+	.word	271
+	.half	3
+	.word	.L92
+	.byte	4,1
+	.byte	'../BSW/IO/Motor.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\First_project\\my_prj2\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L94,.L93
+	.byte	2
+	.word	.L52
+	.byte	3
+	.byte	'Motor_keypad_PWM',0,1,96,6,1,1,1
+	.word	.L51,.L110,.L50
+	.byte	4
+	.byte	'dir',0,1,96,28
+	.word	.L111,.L112
+	.byte	4
+	.byte	'duty',0,1,96,37
+	.word	.L98,.L113
+	.byte	5
+	.word	.L51,.L110
+	.byte	6
+	.byte	'lastDir',0,1,99,17
+	.word	.L111
+	.byte	5,3
+	.word	_999001_lastDir
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Motor_keypad_PWM')
+	.sect	'.debug_abbrev'
+.L92:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Motor_keypad_PWM')
+	.sect	'.debug_line'
+.L93:
 	.word	.L201-.L200
 .L200:
 	.half	3
@@ -25424,706 +25781,173 @@ __Motor_keypad_PWM_function_end:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
 .L203:
-	.byte	5,5,7,0,5,2
-	.word	.L35
-	.byte	3,20,1,5,25,7,9
-	.half	.L204-.L35
-	.byte	3,2,1,5,29,9
+	.byte	5,6,7,0,5,2
+	.word	.L51
+	.byte	3,223,0,1,5,14,9
+	.half	.L128-.L51
+	.byte	3,6,1,5,9,9
+	.half	.L204-.L128
+	.byte	1,5,26,7,9
 	.half	.L205-.L204
-	.byte	1,5,32,9
+	.byte	1,5,24,9
 	.half	.L206-.L205
-	.byte	1,5,25,9
-	.half	.L2-.L206
-	.byte	3,3,1,5,29,9
-	.half	.L207-.L2
-	.byte	1,5,21,9
-	.half	.L3-.L207
-	.byte	3,2,1,5,25,9
-	.half	.L208-.L3
-	.byte	1,5,29,9
-	.half	.L209-.L208
-	.byte	3,1,1,5,1,9
+	.byte	1,5,9,7,9
+	.half	.L207-.L206
+	.byte	3,1,1,5,17,9
+	.half	.L208-.L207
+	.byte	1,5,12,9
+	.half	.L10-.L208
+	.byte	3,5,1,9
+	.half	.L209-.L10
+	.byte	3,1,1,9
 	.half	.L210-.L209
+	.byte	3,2,1,9
+	.half	.L211-.L210
+	.byte	3,127,1,9
+	.half	.L212-.L211
+	.byte	3,125,1,9
+	.half	.L213-.L212
+	.byte	3,7,1,5,9,9
+	.half	.L14-.L213
+	.byte	3,127,1,5,13,9
+	.half	.L17-.L14
+	.byte	3,2,1,5,9,9
+	.half	.L214-.L17
+	.byte	1,5,28,7,9
+	.half	.L215-.L214
+	.byte	3,1,1,5,42,9
+	.half	.L216-.L215
+	.byte	1,5,28,9
+	.half	.L217-.L216
+	.byte	1,5,47,7,9
+	.half	.L218-.L217
+	.byte	1,5,59,9
+	.half	.L219-.L218
+	.byte	1,5,64,9
+	.half	.L220-.L219
+	.byte	1,5,45,9
+	.half	.L21-.L220
+	.byte	1,5,13,9
+	.half	.L22-.L21
+	.byte	1,5,25,9
+	.half	.L221-.L22
+	.byte	1,5,15,9
+	.half	.L20-.L221
+	.byte	3,3,1,5,9,9
+	.half	.L126-.L20
+	.byte	3,1,1,9
+	.half	.L18-.L126
+	.byte	3,3,1,5,12,9
+	.half	.L19-.L18
+	.byte	3,9,1,9
+	.half	.L222-.L19
+	.byte	3,4,1,9
+	.half	.L223-.L222
+	.byte	3,8,1,9
+	.half	.L224-.L223
+	.byte	3,124,1,9
+	.half	.L225-.L224
+	.byte	3,116,1,5,26,9
+	.half	.L29-.L225
+	.byte	3,1,1,5,39,9
+	.half	.L226-.L29
+	.byte	1,5,26,9
+	.half	.L227-.L226
+	.byte	3,1,1,5,39,9
+	.half	.L228-.L227
+	.byte	1,5,9,9
+	.half	.L229-.L228
+	.byte	3,1,1,5,26,9
+	.half	.L25-.L229
+	.byte	3,2,1,5,39,9
+	.half	.L230-.L25
+	.byte	1,5,26,9
+	.half	.L231-.L230
+	.byte	3,1,1,5,39,9
+	.half	.L232-.L231
+	.byte	1,5,9,9
+	.half	.L233-.L232
+	.byte	3,1,1,5,26,9
+	.half	.L26-.L233
+	.byte	3,2,1,5,39,9
+	.half	.L234-.L26
+	.byte	1,5,26,9
+	.half	.L235-.L234
+	.byte	3,1,1,5,39,9
+	.half	.L236-.L235
+	.byte	1,5,9,9
+	.half	.L237-.L236
+	.byte	3,1,1,5,26,9
+	.half	.L28-.L237
+	.byte	3,2,1,5,39,9
+	.half	.L238-.L28
+	.byte	1,5,26,9
+	.half	.L239-.L238
+	.byte	3,1,1,5,39,9
+	.half	.L240-.L239
+	.byte	1,5,9,9
+	.half	.L241-.L240
+	.byte	3,1,1,5,22,9
+	.half	.L27-.L241
+	.byte	3,2,1,9
+	.half	.L132-.L27
+	.byte	3,1,1,5,9,9
+	.half	.L242-.L132
+	.byte	3,1,1,5,21,9
+	.half	.L31-.L242
+	.byte	3,3,1,5,1,9
+	.half	.L24-.L31
 	.byte	3,1,1,7,9
-	.half	.L61-.L210
+	.half	.L95-.L24
 	.byte	0,1,1
 .L201:
-	.sdecl	'.debug_ranges',debug,cluster('Motor_movChA')
-	.sect	'.debug_ranges'
-.L60:
-	.word	-1,.L35,0,.L61-.L35,0,0
-	.sdecl	'.debug_info',debug,cluster('Motor_stopChA')
-	.sect	'.debug_info'
-.L62:
-	.word	212
-	.half	3
-	.word	.L63
-	.byte	4,1
-	.byte	'../BSW/IO/Motor.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\First_project\\my_prj2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L65,.L64
-	.byte	2
-	.word	.L48
-	.byte	3
-	.byte	'Motor_stopChA',0,1,32,6,1,1,1
-	.word	.L37,.L96,.L36
-	.byte	4
-	.word	.L37,.L96
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('Motor_stopChA')
-	.sect	'.debug_abbrev'
-.L63:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('Motor_stopChA')
-	.sect	'.debug_line'
-.L64:
-	.word	.L212-.L211
-.L211:
-	.half	3
-	.word	.L214-.L213
-.L213:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
-.L214:
-	.byte	5,21,7,0,5,2
-	.word	.L37
-	.byte	3,33,1,5,25,9
-	.half	.L215-.L37
-	.byte	1,5,1,9
-	.half	.L216-.L215
-	.byte	3,1,1,7,9
-	.half	.L66-.L216
-	.byte	0,1,1
-.L212:
-	.sdecl	'.debug_ranges',debug,cluster('Motor_stopChA')
-	.sect	'.debug_ranges'
-.L65:
-	.word	-1,.L37,0,.L66-.L37,0,0
-	.sdecl	'.debug_info',debug,cluster('Motor_movChA_PWM')
-	.sect	'.debug_info'
-.L67:
-	.word	248
-	.half	3
-	.word	.L68
-	.byte	4,1
-	.byte	'../BSW/IO/Motor.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\First_project\\my_prj2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L70,.L69
-	.byte	2
-	.word	.L48
-	.byte	3
-	.byte	'Motor_movChA_PWM',0,1,39,6,1,1,1
-	.word	.L39,.L97,.L38
-	.byte	4
-	.byte	'duty',0,1,39,27
-	.word	.L94,.L98
-	.byte	4
-	.byte	'dir',0,1,39,37
-	.word	.L94,.L99
-	.byte	5
-	.word	.L39,.L97
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('Motor_movChA_PWM')
-	.sect	'.debug_abbrev'
-.L68:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('Motor_movChA_PWM')
-	.sect	'.debug_line'
-.L69:
-	.word	.L218-.L217
-.L217:
-	.half	3
-	.word	.L220-.L219
-.L219:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
-.L220:
-	.byte	5,6,7,0,5,2
-	.word	.L39
-	.byte	3,38,1,5,34,9
-	.half	.L113-.L39
-	.byte	3,3,1,5,5,9
-	.half	.L111-.L113
-	.byte	3,1,1,5,25,7,9
-	.half	.L221-.L111
-	.byte	3,2,1,5,29,9
-	.half	.L114-.L221
-	.byte	1,5,32,9
-	.half	.L222-.L114
-	.byte	1,5,25,9
-	.half	.L4-.L222
-	.byte	3,3,1,5,29,9
-	.half	.L115-.L4
-	.byte	1,5,21,9
-	.half	.L5-.L115
-	.byte	3,3,1,5,25,9
-	.half	.L223-.L5
-	.byte	1,5,1,9
-	.half	.L224-.L223
-	.byte	3,1,1,7,9
-	.half	.L71-.L224
-	.byte	0,1,1
-.L218:
-	.sdecl	'.debug_ranges',debug,cluster('Motor_movChA_PWM')
-	.sect	'.debug_ranges'
-.L70:
-	.word	-1,.L39,0,.L71-.L39,0,0
-	.sdecl	'.debug_info',debug,cluster('Motor_movChB')
-	.sect	'.debug_info'
-.L72:
-	.word	227
-	.half	3
-	.word	.L73
-	.byte	4,1
-	.byte	'../BSW/IO/Motor.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\First_project\\my_prj2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L75,.L74
-	.byte	2
-	.word	.L48
-	.byte	3
-	.byte	'Motor_movChB',0,1,55,6,1,1,1
-	.word	.L41,.L100,.L40
-	.byte	4
-	.byte	'dir',0,1,55,23
-	.word	.L94,.L101
-	.byte	5
-	.word	.L41,.L100
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('Motor_movChB')
-	.sect	'.debug_abbrev'
-.L73:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('Motor_movChB')
-	.sect	'.debug_line'
-.L74:
-	.word	.L226-.L225
-.L225:
-	.half	3
-	.word	.L228-.L227
-.L227:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
-.L228:
-	.byte	5,5,7,0,5,2
-	.word	.L41
-	.byte	3,56,1,5,25,7,9
-	.half	.L229-.L41
-	.byte	3,2,1,5,29,9
-	.half	.L230-.L229
-	.byte	1,5,32,9
-	.half	.L231-.L230
-	.byte	1,5,25,9
-	.half	.L6-.L231
-	.byte	3,3,1,5,29,9
-	.half	.L232-.L6
-	.byte	1,5,21,9
-	.half	.L7-.L232
-	.byte	3,2,1,5,25,9
-	.half	.L233-.L7
-	.byte	1,5,29,9
-	.half	.L234-.L233
-	.byte	3,1,1,5,1,9
-	.half	.L235-.L234
-	.byte	3,1,1,7,9
-	.half	.L76-.L235
-	.byte	0,1,1
-.L226:
-	.sdecl	'.debug_ranges',debug,cluster('Motor_movChB')
-	.sect	'.debug_ranges'
-.L75:
-	.word	-1,.L41,0,.L76-.L41,0,0
-	.sdecl	'.debug_info',debug,cluster('Motor_stopChB')
-	.sect	'.debug_info'
-.L77:
-	.word	212
-	.half	3
-	.word	.L78
-	.byte	4,1
-	.byte	'../BSW/IO/Motor.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\First_project\\my_prj2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L80,.L79
-	.byte	2
-	.word	.L48
-	.byte	3
-	.byte	'Motor_stopChB',0,1,68,6,1,1,1
-	.word	.L43,.L102,.L42
-	.byte	4
-	.word	.L43,.L102
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('Motor_stopChB')
-	.sect	'.debug_abbrev'
-.L78:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('Motor_stopChB')
-	.sect	'.debug_line'
-.L79:
-	.word	.L237-.L236
-.L236:
-	.half	3
-	.word	.L239-.L238
-.L238:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
-.L239:
-	.byte	5,21,7,0,5,2
-	.word	.L43
-	.byte	3,197,0,1,5,25,9
-	.half	.L240-.L43
-	.byte	1,5,1,9
-	.half	.L241-.L240
-	.byte	3,1,1,7,9
-	.half	.L81-.L241
-	.byte	0,1,1
-.L237:
-	.sdecl	'.debug_ranges',debug,cluster('Motor_stopChB')
-	.sect	'.debug_ranges'
-.L80:
-	.word	-1,.L43,0,.L81-.L43,0,0
-	.sdecl	'.debug_info',debug,cluster('Motor_movChB_PWM')
-	.sect	'.debug_info'
-.L82:
-	.word	248
-	.half	3
-	.word	.L83
-	.byte	4,1
-	.byte	'../BSW/IO/Motor.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\First_project\\my_prj2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L85,.L84
-	.byte	2
-	.word	.L48
-	.byte	3
-	.byte	'Motor_movChB_PWM',0,1,75,6,1,1,1
-	.word	.L45,.L103,.L44
-	.byte	4
-	.byte	'duty',0,1,75,27
-	.word	.L94,.L104
-	.byte	4
-	.byte	'dir',0,1,75,37
-	.word	.L94,.L105
-	.byte	5
-	.word	.L45,.L103
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('Motor_movChB_PWM')
-	.sect	'.debug_abbrev'
-.L83:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('Motor_movChB_PWM')
-	.sect	'.debug_line'
-.L84:
-	.word	.L243-.L242
-.L242:
-	.half	3
-	.word	.L245-.L244
-.L244:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
-.L245:
-	.byte	5,6,7,0,5,2
-	.word	.L45
-	.byte	3,202,0,1,5,34,9
-	.half	.L119-.L45
-	.byte	3,3,1,5,5,9
-	.half	.L117-.L119
-	.byte	3,2,1,5,25,7,9
-	.half	.L246-.L117
-	.byte	3,2,1,5,29,9
-	.half	.L120-.L246
-	.byte	1,5,32,9
-	.half	.L247-.L120
-	.byte	1,5,25,9
-	.half	.L8-.L247
-	.byte	3,3,1,5,29,9
-	.half	.L121-.L8
-	.byte	1,5,21,9
-	.half	.L9-.L121
-	.byte	3,3,1,5,25,9
-	.half	.L248-.L9
-	.byte	1,5,1,9
-	.half	.L249-.L248
-	.byte	3,1,1,7,9
-	.half	.L86-.L249
-	.byte	0,1,1
-.L243:
-	.sdecl	'.debug_ranges',debug,cluster('Motor_movChB_PWM')
-	.sect	'.debug_ranges'
-.L85:
-	.word	-1,.L45,0,.L86-.L45,0,0
-	.sdecl	'.debug_info',debug,cluster('Motor_keypad_PWM')
-	.sect	'.debug_info'
-.L87:
-	.word	246
-	.half	3
-	.word	.L88
-	.byte	4,1
-	.byte	'../BSW/IO/Motor.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\First_project\\my_prj2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L90,.L89
-	.byte	2
-	.word	.L48
-	.byte	3
-	.byte	'Motor_keypad_PWM',0,1,91,6,1,1,1
-	.word	.L47,.L106,.L46
-	.byte	4
-	.byte	'c',0,1,91,28
-	.word	.L107,.L108
-	.byte	4
-	.byte	'duty',0,1,91,35
-	.word	.L94,.L109
-	.byte	5
-	.word	.L47,.L106
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('Motor_keypad_PWM')
-	.sect	'.debug_abbrev'
-.L88:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('Motor_keypad_PWM')
-	.sect	'.debug_line'
-.L89:
-	.word	.L251-.L250
-.L250:
-	.half	3
-	.word	.L253-.L252
-.L252:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
-.L253:
-	.byte	5,6,7,0,5,2
-	.word	.L47
-	.byte	3,218,0,1,5,14,9
-	.half	.L126-.L47
-	.byte	3,4,1,5,5,9
-	.half	.L254-.L126
-	.byte	1,5,32,7,9
-	.half	.L255-.L254
-	.byte	3,3,1,9
-	.half	.L127-.L255
-	.byte	3,1,1,5,25,9
-	.half	.L129-.L127
-	.byte	3,1,1,5,34,9
-	.half	.L131-.L129
-	.byte	3,126,1,5,19,9
-	.half	.L10-.L131
-	.byte	3,4,1,5,10,9
-	.half	.L256-.L10
-	.byte	1,5,32,7,9
-	.half	.L257-.L256
-	.byte	3,2,1,9
-	.half	.L134-.L257
-	.byte	3,1,1,5,25,9
-	.half	.L136-.L134
-	.byte	3,1,1,5,34,9
-	.half	.L138-.L136
-	.byte	3,126,1,5,19,9
-	.half	.L12-.L138
-	.byte	3,5,1,5,10,9
-	.half	.L258-.L12
-	.byte	1,5,32,7,9
-	.half	.L259-.L258
-	.byte	3,2,1,9
-	.half	.L141-.L259
-	.byte	3,1,1,5,25,9
-	.half	.L143-.L141
-	.byte	3,1,1,5,34,9
-	.half	.L145-.L143
-	.byte	3,126,1,5,19,9
-	.half	.L14-.L145
-	.byte	3,4,1,5,10,9
-	.half	.L260-.L14
-	.byte	1,5,32,7,9
-	.half	.L261-.L260
-	.byte	3,2,1,9
-	.half	.L148-.L261
-	.byte	3,1,1,5,25,9
-	.half	.L150-.L148
-	.byte	3,1,1,5,34,9
-	.half	.L152-.L150
-	.byte	3,126,1,5,19,9
-	.half	.L16-.L152
-	.byte	3,4,1,5,10,9
-	.half	.L262-.L16
-	.byte	1,5,14,7,9
-	.half	.L263-.L262
-	.byte	3,1,1,5,32,9
-	.half	.L154-.L263
-	.byte	3,1,1,9
-	.half	.L155-.L154
-	.byte	3,1,1,5,25,9
-	.half	.L157-.L155
-	.byte	3,1,1,5,17,9
-	.half	.L159-.L157
-	.byte	3,125,1,5,19,9
-	.half	.L18-.L159
-	.byte	3,5,1,5,10,9
-	.half	.L264-.L18
-	.byte	1,5,22,7,9
-	.half	.L265-.L264
-	.byte	3,2,1,5,32,9
-	.half	.L160-.L265
-	.byte	3,1,1,5,25,9
-	.half	.L162-.L160
-	.byte	3,1,1,5,24,9
-	.half	.L164-.L162
-	.byte	3,126,1,5,19,9
-	.half	.L20-.L164
-	.byte	3,4,1,5,10,9
-	.half	.L266-.L20
-	.byte	1,5,32,7,9
-	.half	.L267-.L266
-	.byte	3,2,1,5,22,9
-	.half	.L167-.L267
-	.byte	3,1,1,5,25,9
-	.half	.L268-.L167
-	.byte	3,1,1,5,34,9
-	.half	.L169-.L268
-	.byte	3,126,1,5,19,9
-	.half	.L22-.L169
-	.byte	3,4,1,5,10,9
-	.half	.L269-.L22
-	.byte	1,5,22,7,9
-	.half	.L270-.L269
-	.byte	3,2,1,5,32,9
-	.half	.L170-.L270
-	.byte	3,1,1,5,25,9
-	.half	.L172-.L170
-	.byte	3,1,1,5,24,9
-	.half	.L174-.L172
-	.byte	3,126,1,5,19,9
-	.half	.L24-.L174
-	.byte	3,4,1,5,10,9
-	.half	.L271-.L24
-	.byte	1,5,32,7,9
-	.half	.L272-.L271
-	.byte	3,2,1,5,22,9
-	.half	.L177-.L272
-	.byte	3,1,1,5,25,9
-	.half	.L273-.L177
-	.byte	3,1,1,5,34,9
-	.half	.L179-.L273
-	.byte	3,126,1,5,19,9
-	.half	.L26-.L179
-	.byte	3,5,1,5,10,9
-	.half	.L274-.L26
-	.byte	1,5,9,7,9
-	.half	.L275-.L274
-	.byte	3,1,1,5,18,7,9
-	.half	.L276-.L275
-	.byte	3,1,1,5,36,9
-	.half	.L125-.L276
-	.byte	3,1,1,9
-	.half	.L181-.L125
-	.byte	3,1,1,5,9,9
-	.half	.L29-.L181
-	.byte	3,125,1,9
-	.half	.L28-.L29
-	.byte	3,8,1,5,1,9
-	.half	.L31-.L28
-	.byte	3,2,1,7,9
-	.half	.L91-.L31
-	.byte	0,1,1
-.L251:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_keypad_PWM')
 	.sect	'.debug_ranges'
-.L90:
-	.word	-1,.L47,0,.L91-.L47,0,0
+.L94:
+	.word	-1,.L51,0,.L95-.L51,0,0
 	.sdecl	'.debug_loc',debug,cluster('Motor_Init')
 	.sect	'.debug_loc'
-.L32:
-	.word	-1,.L33,0,.L92-.L33
+.L36:
+	.word	-1,.L37,0,.L96-.L37
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Motor_keypad_PWM')
 	.sect	'.debug_loc'
-.L46:
-	.word	-1,.L47,0,.L106-.L47
+.L50:
+	.word	-1,.L51,0,.L110-.L51
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L108:
-	.word	-1,.L47,0,.L122-.L47
+.L112:
+	.word	-1,.L51,0,.L126-.L51
 	.half	1
 	.byte	84
-	.word	.L124-.L47,.L125-.L47
+	.word	.L128-.L51,.L110-.L51
 	.half	1
-	.byte	95
-	.word	.L130-.L47,.L131-.L47
-	.half	1
-	.byte	84
-	.word	.L10-.L47,.L132-.L47
-	.half	1
-	.byte	84
-	.word	.L137-.L47,.L138-.L47
-	.half	1
-	.byte	84
-	.word	.L12-.L47,.L139-.L47
-	.half	1
-	.byte	84
-	.word	.L144-.L47,.L145-.L47
-	.half	1
-	.byte	84
-	.word	.L14-.L47,.L146-.L47
-	.half	1
-	.byte	84
-	.word	.L151-.L47,.L152-.L47
-	.half	1
-	.byte	84
-	.word	.L16-.L47,.L153-.L47
-	.half	1
-	.byte	84
-	.word	.L158-.L47,.L159-.L47
-	.half	1
-	.byte	84
-	.word	.L18-.L47,.L160-.L47
-	.half	1
-	.byte	84
-	.word	.L163-.L47,.L164-.L47
-	.half	1
-	.byte	84
-	.word	.L20-.L47,.L165-.L47
-	.half	1
-	.byte	84
-	.word	.L168-.L47,.L169-.L47
-	.half	1
-	.byte	84
-	.word	.L22-.L47,.L170-.L47
-	.half	1
-	.byte	84
-	.word	.L173-.L47,.L174-.L47
-	.half	1
-	.byte	84
-	.word	.L24-.L47,.L175-.L47
-	.half	1
-	.byte	84
-	.word	.L178-.L47,.L179-.L47
-	.half	1
-	.byte	84
-	.word	.L26-.L47,.L180-.L47
-	.half	1
-	.byte	84
-	.word	.L28-.L47,.L31-.L47
-	.half	1
-	.byte	95
-	.word	.L28-.L47,.L31-.L47
+	.byte	88
+	.word	.L18-.L51,.L19-.L51
 	.half	1
 	.byte	84
 	.word	0,0
-.L109:
-	.word	-1,.L47,0,.L123-.L47
+.L113:
+	.word	-1,.L51,0,.L127-.L51
 	.half	1
 	.byte	85
-	.word	.L126-.L47,.L125-.L47
-	.half	1
-	.byte	88
-	.word	.L122-.L47,.L127-.L47
-	.half	1
-	.byte	84
-	.word	.L128-.L47,.L129-.L47
-	.half	1
-	.byte	84
-	.word	.L10-.L47,.L133-.L47
+	.word	.L25-.L51,.L129-.L51
 	.half	1
 	.byte	85
-	.word	.L132-.L47,.L134-.L47
-	.half	1
-	.byte	84
-	.word	.L135-.L47,.L136-.L47
-	.half	1
-	.byte	84
-	.word	.L12-.L47,.L140-.L47
+	.word	.L26-.L51,.L130-.L51
 	.half	1
 	.byte	85
-	.word	.L139-.L47,.L141-.L47
-	.half	1
-	.byte	84
-	.word	.L142-.L47,.L143-.L47
-	.half	1
-	.byte	84
-	.word	.L14-.L47,.L147-.L47
+	.word	.L28-.L51,.L131-.L51
 	.half	1
 	.byte	85
-	.word	.L146-.L47,.L148-.L47
-	.half	1
-	.byte	84
-	.word	.L149-.L47,.L150-.L47
-	.half	1
-	.byte	84
-	.word	.L16-.L47,.L154-.L47
-	.half	1
-	.byte	85
-	.word	.L153-.L47,.L155-.L47
-	.half	1
-	.byte	84
-	.word	.L156-.L47,.L157-.L47
-	.half	1
-	.byte	84
-	.word	.L18-.L47,.L160-.L47
-	.half	1
-	.byte	85
-	.word	.L161-.L47,.L162-.L47
-	.half	1
-	.byte	84
-	.word	.L20-.L47,.L166-.L47
-	.half	1
-	.byte	85
-	.word	.L165-.L47,.L167-.L47
-	.half	1
-	.byte	84
-	.word	.L22-.L47,.L170-.L47
-	.half	1
-	.byte	85
-	.word	.L171-.L47,.L172-.L47
-	.half	1
-	.byte	84
-	.word	.L24-.L47,.L176-.L47
-	.half	1
-	.byte	85
-	.word	.L175-.L47,.L177-.L47
-	.half	1
-	.byte	84
-	.word	.L26-.L47,.L125-.L47
-	.half	1
-	.byte	85
-	.word	.L125-.L47,.L29-.L47
-	.half	1
-	.byte	95
-	.word	.L180-.L47,.L181-.L47
-	.half	1
-	.byte	84
-	.word	.L182-.L47,.L29-.L47
-	.half	1
-	.byte	84
-	.word	.L28-.L47,.L31-.L47
-	.half	1
-	.byte	88
-	.word	.L28-.L47,.L31-.L47
+	.word	.L27-.L51,.L132-.L51
 	.half	1
 	.byte	85
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Motor_movChA')
-	.sect	'.debug_loc'
-.L34:
-	.word	-1,.L35,0,.L93-.L35
-	.half	2
-	.byte	138,0
-	.word	0,0
-.L95:
-	.word	-1,.L35,0,.L110-.L35
-	.half	1
-	.byte	84
-	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('Motor_movChA_PWM')
 	.sect	'.debug_loc'
 .L38:
 	.word	-1,.L39,0,.L97-.L39
@@ -26131,73 +25955,85 @@ __Motor_keypad_PWM_function_end:
 	.byte	138,0
 	.word	0,0
 .L99:
-	.word	-1,.L39,0,.L111-.L39
+	.word	-1,.L39,0,.L114-.L39
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Motor_movChA_PWM')
+	.sect	'.debug_loc'
+.L42:
+	.word	-1,.L43,0,.L101-.L43
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L103:
+	.word	-1,.L43,0,.L115-.L43
 	.half	1
 	.byte	85
-	.word	.L113-.L39,.L114-.L39
+	.word	.L117-.L43,.L118-.L43
 	.half	1
 	.byte	95
-	.word	.L4-.L39,.L115-.L39
+	.word	.L4-.L43,.L119-.L43
 	.half	1
 	.byte	95
 	.word	0,0
-.L98:
-	.word	-1,.L39,0,.L112-.L39
+.L102:
+	.word	-1,.L43,0,.L116-.L43
 	.half	1
 	.byte	84
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Motor_movChB')
+	.sect	'.debug_loc'
+.L44:
+	.word	-1,.L45,0,.L104-.L45
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L105:
+	.word	-1,.L45,0,.L120-.L45
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Motor_movChB_PWM')
+	.sect	'.debug_loc'
+.L48:
+	.word	-1,.L49,0,.L107-.L49
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L109:
+	.word	-1,.L49,0,.L121-.L49
+	.half	1
+	.byte	85
+	.word	.L123-.L49,.L124-.L49
+	.half	1
+	.byte	95
+	.word	.L8-.L49,.L125-.L49
+	.half	1
+	.byte	95
+	.word	0,0
+.L108:
+	.word	-1,.L49,0,.L122-.L49
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Motor_stopChA')
 	.sect	'.debug_loc'
 .L40:
 	.word	-1,.L41,0,.L100-.L41
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L101:
-	.word	-1,.L41,0,.L116-.L41
-	.half	1
-	.byte	84
-	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('Motor_movChB_PWM')
-	.sect	'.debug_loc'
-.L44:
-	.word	-1,.L45,0,.L103-.L45
-	.half	2
-	.byte	138,0
-	.word	0,0
-.L105:
-	.word	-1,.L45,0,.L117-.L45
-	.half	1
-	.byte	85
-	.word	.L119-.L45,.L120-.L45
-	.half	1
-	.byte	95
-	.word	.L8-.L45,.L121-.L45
-	.half	1
-	.byte	95
-	.word	0,0
-.L104:
-	.word	-1,.L45,0,.L118-.L45
-	.half	1
-	.byte	84
-	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('Motor_stopChA')
-	.sect	'.debug_loc'
-.L36:
-	.word	-1,.L37,0,.L96-.L37
-	.half	2
-	.byte	138,0
-	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Motor_stopChB')
 	.sect	'.debug_loc'
-.L42:
-	.word	-1,.L43,0,.L102-.L43
+.L46:
+	.word	-1,.L47,0,.L106-.L47
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L277:
+.L243:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -26205,35 +26041,35 @@ __Motor_keypad_PWM_function_end:
 	.sdecl	'.debug_frame',debug,cluster('Motor_Init')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L277,.L33,.L92-.L33
+	.word	.L243,.L37,.L96-.L37
 	.sdecl	'.debug_frame',debug,cluster('Motor_movChA')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L277,.L35,.L93-.L35
+	.word	.L243,.L39,.L97-.L39
 	.sdecl	'.debug_frame',debug,cluster('Motor_stopChA')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L277,.L37,.L96-.L37
+	.word	.L243,.L41,.L100-.L41
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('Motor_movChA_PWM')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L277,.L39,.L97-.L39
+	.word	.L243,.L43,.L101-.L43
 	.sdecl	'.debug_frame',debug,cluster('Motor_movChB')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L277,.L41,.L100-.L41
+	.word	.L243,.L45,.L104-.L45
 	.sdecl	'.debug_frame',debug,cluster('Motor_stopChB')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L277,.L43,.L102-.L43
+	.word	.L243,.L47,.L106-.L47
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('Motor_movChB_PWM')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L277,.L45,.L103-.L45
+	.word	.L243,.L49,.L107-.L49
 	.sdecl	'.debug_frame',debug,cluster('Motor_keypad_PWM')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L277,.L47,.L106-.L47
+	.word	.L243,.L51,.L110-.L51
 	; Module end
