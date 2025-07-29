@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc16784a --dep-file=motorDriver.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\First_project\\\\my_prj2 -IC:\\\\First_project\\\\my_prj2\\\\BSW -IC:\\\\First_project\\\\my_prj2\\\\BSW\\\\Driver -IC:\\\\First_project\\\\my_prj2\\\\BSW\\\\IO -IC:\\\\First_project\\\\my_prj2\\\\BSW\\\\etc -IC:\\\\First_project\\\\my_prj2\\\\Configurations -IC:\\\\First_project\\\\my_prj2\\\\Libraries -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Service -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o BSW/IO/motorDriver.src ../BSW/IO/motorDriver.c"
+	.compiler_invocation	"ctc -f cc10804a --dep-file=motorDriver.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\First_project\\\\my_prj2 -IC:\\\\First_project\\\\my_prj2\\\\BSW -IC:\\\\First_project\\\\my_prj2\\\\BSW\\\\Driver -IC:\\\\First_project\\\\my_prj2\\\\BSW\\\\IO -IC:\\\\First_project\\\\my_prj2\\\\BSW\\\\etc -IC:\\\\First_project\\\\my_prj2\\\\Configurations -IC:\\\\First_project\\\\my_prj2\\\\Libraries -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Service -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\First_project\\\\my_prj2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o BSW/IO/motorDriver.src ../BSW/IO/motorDriver.c"
 	.compiler_name		"ctc"
 	;source	'../BSW/IO/motorDriver.c'
 
@@ -13,267 +13,539 @@ $TC162
 	
 	.global	Motor_keypad_PWM
 ; Function Motor_keypad_PWM
-.L37:
+.L65:
 Motor_keypad_PWM:	.type	func
-	mov	d8,d4
-.L56:
-	mov	d15,#66
-.L84:
-	jeq	d15,d8,.L2
-.L85:
-	mov	d15,#53
-.L86:
-	jeq	d15,d8,.L3
-.L87:
-	movh.a	a15,#@his(_999001_lastDir)
-	lea	a15,[a15]@los(_999001_lastDir)
-.L88:
-	st.b	[a15],d8
-.L3:
-.L2:
-	mov	d15,#57
-	addih	d15,d15,#0
-	lt	d15,d15,d8
-	mov	d0,#49
-	addih	d0,d0,#0
-	or.lt	d15,d8,d0
-	jne	d15,#0,.L4
-	j	.L5
-.L4:
-	j	.L6
-.L7:
-.L8:
-.L9:
-.L10:
-.L5:
-.L11:
-.L12:
-.L13:
-.L14:
-	j	.L15
-.L6:
-	j	.L16
-.L15:
-	mov	d15,#49
-	jeq	d15,d8,.L17
-.L89:
-	mov	d15,#50
-	jeq	d15,d8,.L18
-.L90:
-	mov	d15,#51
-	jeq	d15,d8,.L19
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d15,[a15]
+.L123:
+	jne	d15,#0,.L2
+.L124:
+	call	Motor_stopChA
 .L91:
-	mov	d15,#52
-	jeq	d15,d8,.L20
-.L92:
-	mov	d15,#53
-	jeq	d15,d8,.L21
-.L93:
-	mov	d15,#54
-	jeq	d15,d8,.L22
+	call	Motor_stopChB
+.L125:
+	j	.L3
+.L2:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d15,[a15]
+.L126:
+	add	d8,d15,#25
 .L94:
+	mov	d15,#49
+	jeq	d15,d4,.L4
+.L127:
+	mov	d15,#50
+	jeq	d15,d4,.L5
+.L128:
+	mov	d15,#51
+	jeq	d15,d4,.L6
+.L129:
+	mov	d15,#52
+	jeq	d15,d4,.L7
+.L130:
+	mov	d15,#53
+	jeq	d15,d4,.L8
+.L131:
+	mov	d15,#54
+	jeq	d15,d4,.L9
+.L132:
 	mov	d15,#55
-	jeq	d15,d8,.L23
-.L95:
+	jeq	d15,d4,.L10
+.L133:
 	mov	d15,#56
-	jeq	d15,d8,.L24
-.L96:
+	jeq	d15,d4,.L11
+.L134:
 	mov	d15,#57
-	jeq	d15,d8,.L25
-	j	.L26
-.L24:
+	jeq	d15,d4,.L12
+	j	.L13
+.L11:
 	movh.a	a15,#@his(currentDuty)
 	lea	a15,[a15]@los(currentDuty)
 	ld.w	d4,[a15]
-.L54:
+.L92:
 	mov	d5,#1
-.L55:
+.L93:
 	call	Motor_movChA_PWM
+.L135:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d4,[a15]
+.L136:
+	mov	d5,#1
+	call	Motor_movChB_PWM
+.L137:
+	j	.L14
+.L5:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d4,[a15]
+.L95:
+	mov	d5,#0
+.L96:
+	call	Motor_movChA_PWM
+.L138:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d4,[a15]
+.L139:
+	mov	d5,#0
+	call	Motor_movChB_PWM
+.L140:
+	j	.L15
+.L7:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d4,[a15]
 .L97:
-	movh.a	a15,#@his(currentDuty)
-	lea	a15,[a15]@los(currentDuty)
-	ld.w	d4,[a15]
+	mov	d5,#0
 .L98:
+	call	Motor_movChA_PWM
+.L141:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d4,[a15]
+.L142:
 	mov	d5,#1
 	call	Motor_movChB_PWM
+.L143:
+	j	.L16
+.L9:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d4,[a15]
 .L99:
-	j	.L27
-.L18:
-	movh.a	a15,#@his(currentDuty)
-	lea	a15,[a15]@los(currentDuty)
-	ld.w	d4,[a15]
-.L57:
-	mov	d5,#0
-.L58:
-	call	Motor_movChA_PWM
+	mov	d5,#1
 .L100:
+	call	Motor_movChA_PWM
+.L144:
 	movh.a	a15,#@his(currentDuty)
 	lea	a15,[a15]@los(currentDuty)
 	ld.w	d4,[a15]
+.L145:
+	mov	d5,#0
+	call	Motor_movChB_PWM
+.L146:
+	j	.L17
+.L8:
+	call	Motor_stopChA
 .L101:
-	mov	d5,#0
-	call	Motor_movChB_PWM
+	call	Motor_stopChB
+.L147:
+	j	.L18
+.L4:
+	call	Motor_stopChA
 .L102:
-	j	.L28
-.L20:
 	movh.a	a15,#@his(currentDuty)
 	lea	a15,[a15]@los(currentDuty)
 	ld.w	d4,[a15]
-.L59:
+.L148:
 	mov	d5,#0
-.L60:
-	call	Motor_movChA_PWM
-.L103:
-	movh.a	a15,#@his(currentDuty)
-	lea	a15,[a15]@los(currentDuty)
-	ld.w	d4,[a15]
-.L104:
-	mov	d5,#1
 	call	Motor_movChB_PWM
-.L105:
-	j	.L29
-.L22:
+.L149:
+	j	.L19
+.L6:
 	movh.a	a15,#@his(currentDuty)
 	lea	a15,[a15]@los(currentDuty)
 	ld.w	d4,[a15]
-.L61:
-	mov	d5,#1
-.L62:
-	call	Motor_movChA_PWM
-.L106:
-	movh.a	a15,#@his(currentDuty)
-	lea	a15,[a15]@los(currentDuty)
-	ld.w	d4,[a15]
-.L107:
+.L103:
 	mov	d5,#0
+.L104:
+	call	Motor_movChA_PWM
+.L150:
+	call	Motor_stopChB
+.L151:
+	j	.L20
+.L10:
+	mov	d15,#3
+.L152:
+	div	e0,d8,d15
+.L153:
+	add	d4,d0,#5
+.L105:
+	mov	d5,#1
+.L106:
+	call	Motor_movChA_PWM
+.L154:
+	mov	d5,#1
+	mov	d4,d8
+.L107:
 	call	Motor_movChB_PWM
 .L108:
-	j	.L30
-.L21:
-	call	Motor_stopChA
-.L63:
-	call	Motor_stopChB
-.L109:
-	j	.L31
-.L17:
-	call	Motor_stopChA
-.L64:
-	movh.a	a15,#@his(currentDuty)
-	lea	a15,[a15]@los(currentDuty)
-	ld.w	d4,[a15]
+	j	.L21
+.L12:
+	mov	d5,#1
 .L110:
-	mov	d5,#0
-	call	Motor_movChB_PWM
+	mov	d4,d8
+.L109:
+	call	Motor_movChA_PWM
 .L111:
-	j	.L32
+	mov	d15,#3
+.L155:
+	div	e0,d8,d15
+.L156:
+	add	d4,d0,#5
+.L157:
+	mov	d5,#1
+	call	Motor_movChB_PWM
+.L158:
+	j	.L22
+.L13:
+.L22:
+.L21:
+.L20:
 .L19:
-	movh.a	a15,#@his(currentDuty)
-	lea	a15,[a15]@los(currentDuty)
-	ld.w	d4,[a15]
-.L65:
-	mov	d5,#0
-.L66:
-	call	Motor_movChA_PWM
-.L112:
-	call	Motor_stopChB
-.L113:
-	j	.L33
-.L23:
-	movh.a	a15,#@his(currentDuty)
-	lea	a15,[a15]@los(currentDuty)
-	ld.w	d15,[a15]
-.L114:
-	add	d15,d15,#25
-.L68:
-	mov	d0,#3
-.L115:
-	div	e4,d15,d0
+.L18:
+.L17:
+.L16:
+.L15:
+.L14:
+.L3:
+	ret
+.L82:
+	
+__Motor_keypad_PWM_function_end:
+	.size	Motor_keypad_PWM,__Motor_keypad_PWM_function_end-Motor_keypad_PWM
+.L76:
+	; End of function
+	
+	.sdecl	'.text.motorDriver.MotorDrive',code,cluster('MotorDrive')
+	.sect	'.text.motorDriver.MotorDrive'
+	.align	2
+	
+	.global	MotorDrive
+; Function MotorDrive
 .L67:
-	mov	d5,#1
-	call	Motor_movChA_PWM
-.L116:
-	mov	d5,#1
-	mov	d4,d15
-.L69:
-	call	Motor_movChB_PWM
-.L70:
-	j	.L34
-.L25:
-	movh.a	a15,#@his(currentDuty)
-	lea	a15,[a15]@los(currentDuty)
-	ld.w	d15,[a15]
-.L117:
-	add	d15,d15,#25
-.L73:
-	mov	d5,#1
-.L72:
-	mov	d4,d15
-.L71:
-	call	Motor_movChA_PWM
-.L74:
-	mov	d0,#3
-.L118:
-	div	e4,d15,d0
-.L119:
-	mov	d5,#1
-	call	Motor_movChB_PWM
-.L120:
-	j	.L35
-.L26:
-.L35:
-.L34:
-.L33:
-.L32:
-.L31:
+MotorDrive:	.type	func
+	mov	d15,#56
+.L163:
+	jeq	d15,d4,.L23
+.L164:
+	mov	d15,#50
+.L165:
+	jeq	d15,d4,.L24
+.L166:
+	mov	d15,#52
+.L167:
+	jeq	d15,d4,.L25
+.L168:
+	mov	d15,#54
+.L169:
+	jeq	d15,d4,.L26
+.L170:
+	mov	d15,#53
+.L171:
+	jeq	d15,d4,.L27
+.L172:
+	mov	d15,#49
+.L173:
+	jeq	d15,d4,.L28
+.L174:
+	mov	d15,#51
+.L175:
+	jeq	d15,d4,.L29
+.L176:
+	mov	d15,#55
+.L177:
+	jeq	d15,d4,.L30
+.L178:
+	mov	d15,#57
+.L179:
+	jne	d15,d4,.L31
 .L30:
 .L29:
 .L28:
 .L27:
-	mov	d4,d8
-.L75:
-	call	Asclin1_OutUart
-.L16:
-	ret
+.L26:
+.L25:
+.L24:
+.L23:
+	movh.a	a15,#@his(currentDir)
+	lea	a15,[a15]@los(currentDir)
+.L180:
+	st.b	[a15],d4
+.L181:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+.L182:
+	movh.a	a2,#@his(baseDuty)
+	lea	a2,[a2]@los(baseDuty)
+	ld.w	d15,[a2]
+.L183:
+	st.w	[a15],d15
+.L184:
+	j	.L32
+.L31:
+	mov	d15,#97
+.L185:
+	jne	d15,d4,.L33
+.L186:
+	movh.a	a15,#@his(baseDuty)
+	lea	a15,[a15]@los(baseDuty)
+.L187:
+	mov	d15,#10
+.L188:
+	st.w	[a15],d15
+.L189:
+	j	.L34
+.L33:
+	mov	d15,#115
+.L190:
+	jne	d15,d4,.L35
+.L191:
+	movh.a	a15,#@his(baseDuty)
+	lea	a15,[a15]@los(baseDuty)
+.L192:
+	mov	d15,#20
+.L193:
+	st.w	[a15],d15
+.L194:
+	j	.L36
+.L35:
+	mov	d15,#100
+.L195:
+	jne	d15,d4,.L37
+.L196:
+	movh.a	a15,#@his(baseDuty)
+	lea	a15,[a15]@los(baseDuty)
+.L197:
+	mov	d15,#30
+.L198:
+	st.w	[a15],d15
+.L199:
+	j	.L38
+.L37:
+	mov	d15,#102
+.L200:
+	jne	d15,d4,.L39
+.L201:
+	movh.a	a15,#@his(baseDuty)
+	lea	a15,[a15]@los(baseDuty)
+.L202:
+	mov	d15,#40
+.L203:
+	st.w	[a15],d15
+.L204:
+	j	.L40
+.L39:
+	mov	d15,#103
+.L205:
+	jne	d15,d4,.L41
+.L206:
+	movh.a	a15,#@his(baseDuty)
+	lea	a15,[a15]@los(baseDuty)
+.L207:
+	mov	d15,#50
+.L208:
+	st.w	[a15],d15
+.L209:
+	j	.L42
+.L41:
+	mov	d15,#104
+.L210:
+	jne	d15,d4,.L43
+.L211:
+	movh.a	a15,#@his(baseDuty)
+	lea	a15,[a15]@los(baseDuty)
+.L212:
+	mov	d15,#60
+.L213:
+	st.w	[a15],d15
+.L214:
+	j	.L44
+.L43:
+	mov	d15,#106
+.L215:
+	jne	d15,d4,.L45
+.L216:
+	movh.a	a15,#@his(baseDuty)
+	lea	a15,[a15]@los(baseDuty)
+.L217:
+	mov	d15,#70
+.L218:
+	st.w	[a15],d15
+.L219:
+	j	.L46
+.L45:
+	mov	d15,#107
+.L220:
+	jne	d15,d4,.L47
+.L221:
+	movh.a	a15,#@his(baseDuty)
+	lea	a15,[a15]@los(baseDuty)
+.L222:
+	mov	d15,#80
+.L223:
+	st.w	[a15],d15
+.L224:
+	j	.L48
 .L47:
-	
-__Motor_keypad_PWM_function_end:
-	.size	Motor_keypad_PWM,__Motor_keypad_PWM_function_end-Motor_keypad_PWM
+	mov	d15,#108
+.L225:
+	jne	d15,d4,.L49
+.L226:
+	movh.a	a15,#@his(baseDuty)
+	lea	a15,[a15]@los(baseDuty)
+.L227:
+	mov	d15,#90
+.L228:
+	st.w	[a15],d15
+.L229:
+	j	.L50
+.L49:
+	mov	d15,#59
+.L230:
+	jne	d15,d4,.L51
+.L231:
+	movh.a	a15,#@his(baseDuty)
+	lea	a15,[a15]@los(baseDuty)
+.L232:
+	mov	d15,#100
+.L233:
+	st.w	[a15],d15
+.L234:
+	j	.L52
+.L51:
+	mov	d15,#66
+.L235:
+	jne	d15,d4,.L53
+.L236:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d15,[a15]
+.L237:
+	jlt	d15,#1,.L54
+.L238:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d0,[a15]
+.L239:
+	mov	d15,#10
+.L240:
+	jlt	d0,d15,.L55
+.L241:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d15,[a15]
+.L242:
+	add	d15,d15,#-10
+.L243:
+	j	.L56
+.L55:
+	mov	d15,#0
+.L56:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+.L244:
+	st.w	[a15],d15
+.L54:
+.L53:
+.L52:
+.L50:
+.L48:
 .L46:
+.L44:
+.L42:
+.L40:
+.L38:
+.L36:
+.L34:
+.L32:
+	jne	d5,#0,.L57
+.L245:
+	j	.L58
+.L57:
+	movh.a	a15,#@his(flag)
+	lea	a15,[a15]@los(flag)
+	ld.w	d15,[a15]
+.L246:
+	jne	d15,#1,.L59
+.L247:
+	mov	d15,#49
+.L248:
+	jeq	d15,d4,.L60
+.L249:
+	mov	d15,#50
+.L250:
+	jeq	d15,d4,.L61
+.L251:
+	mov	d15,#51
+.L252:
+	jne	d15,d4,.L62
+.L61:
+.L60:
+	movh.a	a15,#@his(currentDir)
+	lea	a15,[a15]@los(currentDir)
+.L253:
+	st.b	[a15],d4
+.L254:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+.L255:
+	mov	d15,#30
+.L256:
+	st.w	[a15],d15
+.L257:
+	movh.a	a15,#@his(currentDir)
+	lea	a15,[a15]@los(currentDir)
+	ld.b	d4,[a15]0
+.L112:
+	movh.a	a15,#@his(currentDuty)
+	lea	a15,[a15]@los(currentDuty)
+	ld.w	d5,[a15]
+.L113:
+	call	Motor_keypad_PWM
+.L258:
+	j	.L63
+.L62:
+	call	Motor_stopChA
+.L114:
+	call	Motor_stopChB
+.L63:
+.L59:
+.L58:
+	ret
+.L88:
+	
+__MotorDrive_function_end:
+	.size	MotorDrive,__MotorDrive_function_end-MotorDrive
+.L81:
 	; End of function
 	
-	.sdecl	'.data.motorDriver._999001_lastDir',data,cluster('_999001_lastDir')
-	.sect	'.data.motorDriver._999001_lastDir'
-_999001_lastDir:	.type	object
-	.size	_999001_lastDir,1
-	.byte	53
-	.calls	'Motor_keypad_PWM','Motor_movChA_PWM'
-	.calls	'Motor_keypad_PWM','Motor_movChB_PWM'
 	.calls	'Motor_keypad_PWM','Motor_stopChA'
 	.calls	'Motor_keypad_PWM','Motor_stopChB'
-	.calls	'Motor_keypad_PWM','Asclin1_OutUart'
+	.calls	'Motor_keypad_PWM','Motor_movChA_PWM'
+	.calls	'Motor_keypad_PWM','Motor_movChB_PWM'
+	.calls	'MotorDrive','Motor_keypad_PWM'
+	.calls	'MotorDrive','Motor_stopChA'
+	.calls	'MotorDrive','Motor_stopChB'
+	.calls	'Motor_keypad_PWM','',0
 	.extern	Motor_stopChA
 	.extern	Motor_movChA_PWM
 	.extern	Motor_stopChB
 	.extern	Motor_movChB_PWM
 	.extern	currentDuty
-	.extern	Asclin1_OutUart
-	.calls	'Motor_keypad_PWM','',0
+	.extern	currentDir
+	.extern	baseDuty
+	.extern	flag
+	.calls	'MotorDrive','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L39:
-	.word	406
+.L69:
+	.word	504
 	.half	3
-	.word	.L40
+	.word	.L70
 	.byte	4
-.L38:
+.L68:
 	.byte	1
 	.byte	'../BSW/IO/motorDriver.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\First_project\\my_prj2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L41
+	.word	.L71
 	.byte	2
 	.byte	'Motor_stopChA',0,1,6,6,1,1,1,1
-.L50:
+.L85:
 	.byte	3
 	.byte	'int',0,4,5,4
 	.byte	'Motor_movChA_PWM',0,1,7,6,1,1,1,1,5
@@ -291,326 +563,629 @@ _999001_lastDir:	.type	object
 	.byte	'dir',0,1,11,37
 	.word	191
 	.byte	0
-.L48:
+.L83:
 	.byte	3
-	.byte	'char',0,1,6,6
-	.byte	'Asclin1_OutUart',0,2,81,5
-	.word	191
-	.byte	1,1,1,7,1,8
-	.word	357
-	.byte	9
+	.byte	'char',0,1,6,6,1,7
+	.word	330
+	.byte	8
 	.byte	'__codeptr',0,2,1,1
-	.word	359
-	.byte	10
+	.word	332
+	.byte	8
+	.byte	'__intptr_t',0,2,1,1
 	.word	191
-	.byte	11
-	.byte	'currentDuty',0,2,3,21
-	.word	382
+	.byte	3
+	.byte	'unsigned int',0,4,7,8
+	.byte	'__uintptr_t',0,2,1,1
+	.word	374
+	.byte	9
+	.word	191
+	.byte	10
+	.byte	'currentDuty',0,2,5,21
+	.word	410
+	.byte	1,1,9
+	.word	322
+	.byte	10
+	.byte	'currentDir',0,2,6,22
+	.word	437
+	.byte	1,1,9
+	.word	191
+	.byte	10
+	.byte	'baseDuty',0,2,7,21
+	.word	463
+	.byte	1,1,9
+	.word	191
+	.byte	10
+	.byte	'flag',0,2,8,21
+	.word	487
 	.byte	1,1,0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L40:
+.L70:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,46,0,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0
 	.byte	3,36,0,3,8,11,15,62,15,0,0,4,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,5,5,0,3,8,58,15,59
-	.byte	15,57,15,73,19,0,0,6,46,0,3,8,58,15,59,15,57,15,73,19,54,15,63,12,60,12,0,0,7,21,0,54,15,0,0,8,15,0,73
-	.byte	19,0,0,9,22,0,3,8,58,15,59,15,57,15,73,19,0,0,10,53,0,73,19,0,0,11,52,0,3,8,58,15,59,15,57,15,73,19,63
-	.byte	12,60,12,0,0,0
+	.byte	15,57,15,73,19,0,0,6,21,0,54,15,0,0,7,15,0,73,19,0,0,8,22,0,3,8,58,15,59,15,57,15,73,19,0,0,9,53,0,73
+	.byte	19,0,0,10,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L41:
-	.word	.L77-.L76
-.L76:
+.L71:
+	.word	.L116-.L115
+.L115:
 	.half	3
-	.word	.L79-.L78
-.L78:
+	.word	.L118-.L117
+.L117:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'..\\BSW\\IO\\Motor.h',0,0,0,0
 	.byte	'../BSW/IO/motorDriver.c',0,0,0,0,0
-.L79:
-.L77:
+.L118:
+.L116:
 	.sdecl	'.debug_info',debug,cluster('Motor_keypad_PWM')
 	.sect	'.debug_info'
-.L42:
-	.word	310
+.L72:
+	.word	291
 	.half	3
-	.word	.L43
+	.word	.L73
 	.byte	4,1
 	.byte	'../BSW/IO/motorDriver.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\First_project\\my_prj2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L45,.L44
+	.word	.L75,.L74
 	.byte	2
-	.word	.L38
+	.word	.L68
 	.byte	3
-	.byte	'Motor_keypad_PWM',0,1,8,6,1,1,1
-	.word	.L37,.L47,.L36
+	.byte	'Motor_keypad_PWM',0,1,10,6,1,1,1
+	.word	.L65,.L82,.L64
 	.byte	4
-	.byte	'dir',0,1,8,28
-	.word	.L48,.L49
+	.byte	'dir',0,1,10,28
+	.word	.L83,.L84
 	.byte	4
-	.byte	'duty',0,1,8,37
-	.word	.L50,.L51
+	.byte	'duty',0,1,10,37
+	.word	.L85,.L86
 	.byte	5
-	.word	.L37,.L47
+	.word	.L65,.L82
+	.byte	5
+	.word	.L2,.L82
 	.byte	6
-	.byte	'lastDir',0,1,11,17
-	.word	.L48
-	.byte	5,3
-	.word	_999001_lastDir
-	.byte	7
-	.byte	'tmp',0,1,12,9
-	.word	.L50,.L52
-	.byte	7
-	.byte	'tmp2',0,1,12,14
-	.word	.L50,.L53
-	.byte	0,0,0
+	.byte	'turnBoostDuty',0,1,17,9
+	.word	.L85,.L87
+	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Motor_keypad_PWM')
 	.sect	'.debug_abbrev'
-.L43:
+.L73:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
-	.byte	8,58,15,59,15,57,15,73,16,2,9,0,0,7,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Motor_keypad_PWM')
 	.sect	'.debug_line'
-.L44:
-	.word	.L81-.L80
-.L80:
+.L74:
+	.word	.L120-.L119
+.L119:
 	.half	3
-	.word	.L83-.L82
-.L82:
+	.word	.L122-.L121
+.L121:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/motorDriver.c',0,0,0,0,0
-.L83:
-	.byte	5,6,7,0,5,2
-	.word	.L37
-	.byte	3,7,1,5,14,9
-	.half	.L56-.L37
-	.byte	3,7,1,5,9,9
-	.half	.L84-.L56
-	.byte	1,5,26,7,9
-	.half	.L85-.L84
-	.byte	1,5,24,9
-	.half	.L86-.L85
-	.byte	1,5,9,7,9
-	.half	.L87-.L86
-	.byte	3,1,1,5,17,9
-	.half	.L88-.L87
-	.byte	1,5,5,9
-	.half	.L2-.L88
-	.byte	3,3,1,5,9,9
-	.half	.L14-.L2
-	.byte	3,11,1,9
-	.half	.L6-.L14
-	.byte	3,3,1,5,12,9
-	.half	.L15-.L6
-	.byte	3,25,1,9
-	.half	.L89-.L15
-	.byte	3,112,1,9
-	.half	.L90-.L89
-	.byte	3,20,1,9
-	.half	.L91-.L90
-	.byte	3,112,1,9
-	.half	.L92-.L91
-	.byte	3,8,1,9
-	.half	.L93-.L92
-	.byte	3,124,1,9
-	.half	.L94-.L93
-	.byte	3,16,1,9
-	.half	.L95-.L94
-	.byte	3,100,1,9
-	.half	.L96-.L95
-	.byte	3,34,1,5,26,9
-	.half	.L24-.L96
-	.byte	3,95,1,5,39,9
-	.half	.L54-.L24
-	.byte	1,5,26,9
-	.half	.L97-.L54
-	.byte	3,1,1,5,39,9
-	.half	.L98-.L97
-	.byte	1,5,9,9
-	.half	.L99-.L98
-	.byte	3,1,1,5,26,9
-	.half	.L18-.L99
-	.byte	3,2,1,5,39,9
-	.half	.L57-.L18
-	.byte	1,5,26,9
-	.half	.L100-.L57
-	.byte	3,1,1,5,39,9
-	.half	.L101-.L100
-	.byte	1,5,9,9
-	.half	.L102-.L101
-	.byte	3,1,1,5,26,9
-	.half	.L20-.L102
-	.byte	3,2,1,5,39,9
-	.half	.L59-.L20
-	.byte	1,5,26,9
-	.half	.L103-.L59
-	.byte	3,1,1,5,39,9
-	.half	.L104-.L103
-	.byte	1,5,9,9
-	.half	.L105-.L104
-	.byte	3,1,1,5,26,9
-	.half	.L22-.L105
-	.byte	3,2,1,5,39,9
-	.half	.L61-.L22
-	.byte	1,5,26,9
-	.half	.L106-.L61
-	.byte	3,1,1,5,39,9
-	.half	.L107-.L106
-	.byte	1,5,9,9
-	.half	.L108-.L107
-	.byte	3,1,1,5,22,9
-	.half	.L21-.L108
-	.byte	3,2,1,9
-	.half	.L63-.L21
+.L122:
+	.byte	5,9,7,0,5,2
+	.word	.L65
+	.byte	3,10,1,5,5,9
+	.half	.L123-.L65
+	.byte	1,5,22,7,9
+	.half	.L124-.L123
+	.byte	3,1,1,9
+	.half	.L91-.L124
 	.byte	3,1,1,5,9,9
-	.half	.L109-.L63
-	.byte	3,1,1,5,18,9
-	.half	.L17-.L109
-	.byte	3,2,1,5,22,9
-	.half	.L64-.L17
-	.byte	3,1,1,5,35,9
-	.half	.L110-.L64
-	.byte	1,5,5,9
-	.half	.L111-.L110
-	.byte	3,1,1,5,22,9
-	.half	.L19-.L111
-	.byte	3,2,1,5,35,9
-	.half	.L65-.L19
-	.byte	1,5,18,9
-	.half	.L112-.L65
-	.byte	3,1,1,5,5,9
-	.half	.L113-.L112
-	.byte	3,1,1,5,11,9
-	.half	.L23-.L113
-	.byte	3,3,1,5,23,9
-	.half	.L114-.L23
-	.byte	1,5,28,9
-	.half	.L68-.L114
+	.half	.L125-.L91
+	.byte	3,1,1,5,25,9
+	.half	.L2-.L125
+	.byte	3,3,1,5,37,9
+	.half	.L126-.L2
+	.byte	1,5,14,9
+	.half	.L94-.L126
+	.byte	3,23,1,9
+	.half	.L127-.L94
+	.byte	3,112,1,9
+	.half	.L128-.L127
+	.byte	3,20,1,9
+	.half	.L129-.L128
+	.byte	3,112,1,9
+	.half	.L130-.L129
+	.byte	3,8,1,9
+	.half	.L131-.L130
+	.byte	3,124,1,9
+	.half	.L132-.L131
+	.byte	3,16,1,9
+	.half	.L133-.L132
+	.byte	3,100,1,9
+	.half	.L134-.L133
+	.byte	3,32,1,5,30,9
+	.half	.L11-.L134
+	.byte	3,97,1,5,43,9
+	.half	.L92-.L11
+	.byte	1,5,30,9
+	.half	.L135-.L92
+	.byte	3,1,1,5,43,9
+	.half	.L136-.L135
+	.byte	1,5,13,9
+	.half	.L137-.L136
+	.byte	3,1,1,5,30,9
+	.half	.L5-.L137
+	.byte	3,2,1,5,43,9
+	.half	.L95-.L5
+	.byte	1,5,30,9
+	.half	.L138-.L95
+	.byte	3,1,1,5,43,9
+	.half	.L139-.L138
+	.byte	1,5,13,9
+	.half	.L140-.L139
+	.byte	3,1,1,5,30,9
+	.half	.L7-.L140
+	.byte	3,2,1,5,43,9
+	.half	.L97-.L7
+	.byte	1,5,30,9
+	.half	.L141-.L97
+	.byte	3,1,1,5,43,9
+	.half	.L142-.L141
+	.byte	1,5,13,9
+	.half	.L143-.L142
+	.byte	3,1,1,5,30,9
+	.half	.L9-.L143
+	.byte	3,2,1,5,43,9
+	.half	.L99-.L9
+	.byte	1,5,30,9
+	.half	.L144-.L99
+	.byte	3,1,1,5,43,9
+	.half	.L145-.L144
+	.byte	1,5,13,9
+	.half	.L146-.L145
 	.byte	3,1,1,5,26,9
-	.half	.L115-.L68
-	.byte	1,5,31,9
-	.half	.L67-.L115
-	.byte	1,5,27,9
-	.half	.L116-.L67
-	.byte	3,1,1,5,5,9
-	.half	.L70-.L116
-	.byte	3,1,1,5,12,9
-	.half	.L25-.L70
-	.byte	3,2,1,5,24,9
-	.half	.L117-.L25
-	.byte	1,5,28,9
-	.half	.L73-.L117
-	.byte	3,1,1,5,29,9
-	.half	.L74-.L73
-	.byte	3,2,1,5,27,9
-	.half	.L118-.L74
-	.byte	1,5,32,9
-	.half	.L119-.L118
-	.byte	1,5,5,9
-	.half	.L120-.L119
-	.byte	3,1,1,5,21,9
-	.half	.L27-.L120
-	.byte	3,4,1,5,1,9
-	.half	.L16-.L27
-	.byte	3,1,1,7,9
-	.half	.L46-.L16
+	.half	.L8-.L146
+	.byte	3,2,1,9
+	.half	.L101-.L8
+	.byte	3,1,1,5,13,9
+	.half	.L147-.L101
+	.byte	3,1,1,5,26,9
+	.half	.L4-.L147
+	.byte	3,2,1,5,30,9
+	.half	.L102-.L4
+	.byte	3,1,1,5,43,9
+	.half	.L148-.L102
+	.byte	1,5,13,9
+	.half	.L149-.L148
+	.byte	3,1,1,5,30,9
+	.half	.L6-.L149
+	.byte	3,2,1,5,43,9
+	.half	.L103-.L6
+	.byte	1,5,26,9
+	.half	.L150-.L103
+	.byte	3,1,1,5,13,9
+	.half	.L151-.L150
+	.byte	3,1,1,5,46,9
+	.half	.L10-.L151
+	.byte	3,2,1,5,44,9
+	.half	.L152-.L10
+	.byte	1,5,48,9
+	.half	.L153-.L152
+	.byte	1,5,53,9
+	.half	.L105-.L153
+	.byte	1,5,45,9
+	.half	.L154-.L105
+	.byte	3,1,1,5,13,9
+	.half	.L108-.L154
+	.byte	3,1,1,5,45,9
+	.half	.L12-.L108
+	.byte	3,2,1,5,46,9
+	.half	.L111-.L12
+	.byte	3,1,1,5,44,9
+	.half	.L155-.L111
+	.byte	1,5,48,9
+	.half	.L156-.L155
+	.byte	1,5,53,9
+	.half	.L157-.L156
+	.byte	1,5,13,9
+	.half	.L158-.L157
+	.byte	3,1,1,5,1,9
+	.half	.L3-.L158
+	.byte	3,2,1,7,9
+	.half	.L76-.L3
 	.byte	0,1,1
-.L81:
+.L120:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_keypad_PWM')
 	.sect	'.debug_ranges'
-.L45:
-	.word	-1,.L37,0,.L46-.L37,0,0
-	.sdecl	'.debug_loc',debug,cluster('Motor_keypad_PWM')
+.L75:
+	.word	-1,.L65,0,.L76-.L65,0,0
+	.sdecl	'.debug_info',debug,cluster('MotorDrive')
+	.sect	'.debug_info'
+.L77:
+	.word	252
+	.half	3
+	.word	.L78
+	.byte	4,1
+	.byte	'../BSW/IO/motorDriver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\First_project\\my_prj2\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L80,.L79
+	.byte	2
+	.word	.L68
+	.byte	3
+	.byte	'MotorDrive',0,1,59,6,1,1,1
+	.word	.L67,.L88,.L66
+	.byte	4
+	.byte	'c',0,1,59,22
+	.word	.L83,.L89
+	.byte	4
+	.byte	'isUnlocked',0,1,59,29
+	.word	.L85,.L90
+	.byte	5
+	.word	.L67,.L88
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('MotorDrive')
+	.sect	'.debug_abbrev'
+.L78:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('MotorDrive')
+	.sect	'.debug_line'
+.L79:
+	.word	.L160-.L159
+.L159:
+	.half	3
+	.word	.L162-.L161
+.L161:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/IO/motorDriver.c',0,0,0,0,0
+.L162:
+	.byte	5,14,7,0,5,2
+	.word	.L67
+	.byte	3,60,1,5,9,9
+	.half	.L163-.L67
+	.byte	1,5,26,7,9
+	.half	.L164-.L163
+	.byte	1,5,23,9
+	.half	.L165-.L164
+	.byte	1,5,38,7,9
+	.half	.L166-.L165
+	.byte	1,5,35,9
+	.half	.L167-.L166
+	.byte	1,5,50,7,9
+	.half	.L168-.L167
+	.byte	1,5,47,9
+	.half	.L169-.L168
+	.byte	1,5,62,7,9
+	.half	.L170-.L169
+	.byte	1,5,59,9
+	.half	.L171-.L170
+	.byte	1,5,14,7,9
+	.half	.L172-.L171
+	.byte	3,1,1,5,11,9
+	.half	.L173-.L172
+	.byte	1,5,26,7,9
+	.half	.L174-.L173
+	.byte	1,5,23,9
+	.half	.L175-.L174
+	.byte	1,5,38,7,9
+	.half	.L176-.L175
+	.byte	1,5,35,9
+	.half	.L177-.L176
+	.byte	1,5,50,7,9
+	.half	.L178-.L177
+	.byte	1,5,47,9
+	.half	.L179-.L178
+	.byte	1,5,9,7,9
+	.half	.L23-.L179
+	.byte	3,1,1,5,20,9
+	.half	.L180-.L23
+	.byte	1,5,9,9
+	.half	.L181-.L180
+	.byte	3,1,1,5,23,9
+	.half	.L182-.L181
+	.byte	1,5,21,9
+	.half	.L183-.L182
+	.byte	1,5,23,9
+	.half	.L184-.L183
+	.byte	3,127,1,5,19,9
+	.half	.L31-.L184
+	.byte	3,3,1,5,10,9
+	.half	.L185-.L31
+	.byte	1,5,24,7,9
+	.half	.L186-.L185
+	.byte	1,5,35,9
+	.half	.L187-.L186
+	.byte	1,5,33,9
+	.half	.L188-.L187
+	.byte	1,5,37,9
+	.half	.L189-.L188
+	.byte	1,5,19,9
+	.half	.L33-.L189
+	.byte	3,1,1,5,10,9
+	.half	.L190-.L33
+	.byte	1,5,24,7,9
+	.half	.L191-.L190
+	.byte	1,5,35,9
+	.half	.L192-.L191
+	.byte	1,5,33,9
+	.half	.L193-.L192
+	.byte	1,5,37,9
+	.half	.L194-.L193
+	.byte	1,5,19,9
+	.half	.L35-.L194
+	.byte	3,1,1,5,10,9
+	.half	.L195-.L35
+	.byte	1,5,24,7,9
+	.half	.L196-.L195
+	.byte	1,5,35,9
+	.half	.L197-.L196
+	.byte	1,5,33,9
+	.half	.L198-.L197
+	.byte	1,5,37,9
+	.half	.L199-.L198
+	.byte	1,5,19,9
+	.half	.L37-.L199
+	.byte	3,1,1,5,10,9
+	.half	.L200-.L37
+	.byte	1,5,24,7,9
+	.half	.L201-.L200
+	.byte	1,5,35,9
+	.half	.L202-.L201
+	.byte	1,5,33,9
+	.half	.L203-.L202
+	.byte	1,5,37,9
+	.half	.L204-.L203
+	.byte	1,5,19,9
+	.half	.L39-.L204
+	.byte	3,1,1,5,10,9
+	.half	.L205-.L39
+	.byte	1,5,24,7,9
+	.half	.L206-.L205
+	.byte	1,5,35,9
+	.half	.L207-.L206
+	.byte	1,5,33,9
+	.half	.L208-.L207
+	.byte	1,5,37,9
+	.half	.L209-.L208
+	.byte	1,5,19,9
+	.half	.L41-.L209
+	.byte	3,1,1,5,10,9
+	.half	.L210-.L41
+	.byte	1,5,24,7,9
+	.half	.L211-.L210
+	.byte	1,5,35,9
+	.half	.L212-.L211
+	.byte	1,5,33,9
+	.half	.L213-.L212
+	.byte	1,5,37,9
+	.half	.L214-.L213
+	.byte	1,5,19,9
+	.half	.L43-.L214
+	.byte	3,1,1,5,10,9
+	.half	.L215-.L43
+	.byte	1,5,24,7,9
+	.half	.L216-.L215
+	.byte	1,5,35,9
+	.half	.L217-.L216
+	.byte	1,5,33,9
+	.half	.L218-.L217
+	.byte	1,5,37,9
+	.half	.L219-.L218
+	.byte	1,5,19,9
+	.half	.L45-.L219
+	.byte	3,1,1,5,10,9
+	.half	.L220-.L45
+	.byte	1,5,24,7,9
+	.half	.L221-.L220
+	.byte	1,5,35,9
+	.half	.L222-.L221
+	.byte	1,5,33,9
+	.half	.L223-.L222
+	.byte	1,5,37,9
+	.half	.L224-.L223
+	.byte	1,5,19,9
+	.half	.L47-.L224
+	.byte	3,1,1,5,10,9
+	.half	.L225-.L47
+	.byte	1,5,24,7,9
+	.half	.L226-.L225
+	.byte	1,5,35,9
+	.half	.L227-.L226
+	.byte	1,5,33,9
+	.half	.L228-.L227
+	.byte	1,5,37,9
+	.half	.L229-.L228
+	.byte	1,5,19,9
+	.half	.L49-.L229
+	.byte	3,1,1,5,10,9
+	.half	.L230-.L49
+	.byte	1,5,24,7,9
+	.half	.L231-.L230
+	.byte	1,5,35,9
+	.half	.L232-.L231
+	.byte	1,5,33,9
+	.half	.L233-.L232
+	.byte	1,5,38,9
+	.half	.L234-.L233
+	.byte	1,5,19,9
+	.half	.L51-.L234
+	.byte	3,1,1,5,10,9
+	.half	.L235-.L51
+	.byte	1,5,13,7,9
+	.half	.L236-.L235
+	.byte	3,1,1,5,9,9
+	.half	.L237-.L236
+	.byte	1,5,28,7,9
+	.half	.L238-.L237
+	.byte	3,1,1,5,43,9
+	.half	.L239-.L238
+	.byte	1,5,27,9
+	.half	.L240-.L239
+	.byte	1,5,49,7,9
+	.half	.L241-.L240
+	.byte	1,5,61,9
+	.half	.L242-.L241
+	.byte	1,5,66,9
+	.half	.L243-.L242
+	.byte	1,5,47,9
+	.half	.L55-.L243
+	.byte	1,5,13,9
+	.half	.L56-.L55
+	.byte	1,5,25,9
+	.half	.L244-.L56
+	.byte	1,5,10,9
+	.half	.L32-.L244
+	.byte	3,4,1,5,22,7,9
+	.half	.L245-.L32
+	.byte	1,5,9,9
+	.half	.L57-.L245
+	.byte	3,3,1,5,5,9
+	.half	.L246-.L57
+	.byte	1,5,18,7,9
+	.half	.L247-.L246
+	.byte	3,1,1,5,13,9
+	.half	.L248-.L247
+	.byte	1,5,30,7,9
+	.half	.L249-.L248
+	.byte	1,5,27,9
+	.half	.L250-.L249
+	.byte	1,5,42,7,9
+	.half	.L251-.L250
+	.byte	1,5,39,9
+	.half	.L252-.L251
+	.byte	1,5,13,7,9
+	.half	.L60-.L252
+	.byte	3,1,1,5,24,9
+	.half	.L253-.L60
+	.byte	1,5,13,9
+	.half	.L254-.L253
+	.byte	3,1,1,5,27,9
+	.half	.L255-.L254
+	.byte	1,5,25,9
+	.half	.L256-.L255
+	.byte	1,5,30,9
+	.half	.L257-.L256
+	.byte	3,1,1,5,42,9
+	.half	.L112-.L257
+	.byte	1,5,27,9
+	.half	.L258-.L112
+	.byte	3,126,1,5,26,9
+	.half	.L62-.L258
+	.byte	3,4,1,9
+	.half	.L114-.L62
+	.byte	3,1,1,5,1,9
+	.half	.L58-.L114
+	.byte	3,3,1,7,9
+	.half	.L81-.L58
+	.byte	0,1,1
+.L160:
+	.sdecl	'.debug_ranges',debug,cluster('MotorDrive')
+	.sect	'.debug_ranges'
+.L80:
+	.word	-1,.L67,0,.L81-.L67,0,0
+	.sdecl	'.debug_loc',debug,cluster('MotorDrive')
 	.sect	'.debug_loc'
-.L36:
-	.word	-1,.L37,0,.L47-.L37
+.L66:
+	.word	-1,.L67,0,.L88-.L67
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L49:
-	.word	-1,.L37,0,.L54-.L37
+.L89:
+	.word	-1,.L67,0,.L112-.L67
 	.half	1
 	.byte	84
-	.word	.L56-.L37,.L47-.L37
+	.word	.L62-.L67,.L114-.L67
+	.half	1
+	.byte	84
+	.word	0,0
+.L90:
+	.word	-1,.L67,0,.L113-.L67
+	.half	1
+	.byte	85
+	.word	.L62-.L67,.L114-.L67
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Motor_keypad_PWM')
+	.sect	'.debug_loc'
+.L64:
+	.word	-1,.L65,0,.L82-.L65
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L84:
+	.word	-1,.L65,0,.L91-.L65
+	.half	1
+	.byte	84
+	.word	.L2-.L65,.L92-.L65
+	.half	1
+	.byte	84
+	.word	.L5-.L65,.L95-.L65
+	.half	1
+	.byte	84
+	.word	.L7-.L65,.L97-.L65
+	.half	1
+	.byte	84
+	.word	.L9-.L65,.L99-.L65
+	.half	1
+	.byte	84
+	.word	.L8-.L65,.L101-.L65
+	.half	1
+	.byte	84
+	.word	.L4-.L65,.L102-.L65
+	.half	1
+	.byte	84
+	.word	.L6-.L65,.L103-.L65
+	.half	1
+	.byte	84
+	.word	.L10-.L65,.L105-.L65
+	.half	1
+	.byte	84
+	.word	.L12-.L65,.L109-.L65
+	.half	1
+	.byte	84
+	.word	0,0
+.L86:
+	.word	-1,.L65,0,.L91-.L65
+	.half	1
+	.byte	85
+	.word	.L2-.L65,.L93-.L65
+	.half	1
+	.byte	85
+	.word	.L5-.L65,.L96-.L65
+	.half	1
+	.byte	85
+	.word	.L7-.L65,.L98-.L65
+	.half	1
+	.byte	85
+	.word	.L9-.L65,.L100-.L65
+	.half	1
+	.byte	85
+	.word	.L8-.L65,.L101-.L65
+	.half	1
+	.byte	85
+	.word	.L4-.L65,.L102-.L65
+	.half	1
+	.byte	85
+	.word	.L6-.L65,.L104-.L65
+	.half	1
+	.byte	85
+	.word	.L10-.L65,.L106-.L65
+	.half	1
+	.byte	85
+	.word	.L12-.L65,.L110-.L65
+	.half	1
+	.byte	85
+	.word	0,0
+.L87:
+	.word	-1,.L65,.L94-.L65,.L3-.L65
 	.half	1
 	.byte	88
-	.word	.L18-.L37,.L57-.L37
+	.word	.L107-.L65,.L108-.L65
 	.half	1
 	.byte	84
-	.word	.L20-.L37,.L59-.L37
-	.half	1
-	.byte	84
-	.word	.L22-.L37,.L61-.L37
-	.half	1
-	.byte	84
-	.word	.L21-.L37,.L63-.L37
-	.half	1
-	.byte	84
-	.word	.L17-.L37,.L64-.L37
-	.half	1
-	.byte	84
-	.word	.L19-.L37,.L65-.L37
-	.half	1
-	.byte	84
-	.word	.L23-.L37,.L67-.L37
-	.half	1
-	.byte	84
-	.word	.L25-.L37,.L71-.L37
-	.half	1
-	.byte	84
-	.word	.L75-.L37,.L16-.L37
-	.half	1
-	.byte	84
-	.word	0,0
-.L51:
-	.word	-1,.L37,0,.L55-.L37
-	.half	1
-	.byte	85
-	.word	.L18-.L37,.L58-.L37
-	.half	1
-	.byte	85
-	.word	.L20-.L37,.L60-.L37
-	.half	1
-	.byte	85
-	.word	.L22-.L37,.L62-.L37
-	.half	1
-	.byte	85
-	.word	.L21-.L37,.L63-.L37
-	.half	1
-	.byte	85
-	.word	.L17-.L37,.L64-.L37
-	.half	1
-	.byte	85
-	.word	.L19-.L37,.L66-.L37
-	.half	1
-	.byte	85
-	.word	.L23-.L37,.L67-.L37
-	.half	1
-	.byte	85
-	.word	.L25-.L37,.L72-.L37
-	.half	1
-	.byte	85
-	.word	0,0
-.L52:
-	.word	-1,.L37,.L68-.L37,.L25-.L37
-	.half	1
-	.byte	95
-	.word	.L69-.L37,.L70-.L37
-	.half	1
-	.byte	84
-	.word	0,0
-.L53:
-	.word	-1,.L37,.L73-.L37,.L27-.L37
-	.half	1
-	.byte	95
-	.word	.L71-.L37,.L74-.L37
+	.word	.L109-.L65,.L111-.L65
 	.half	1
 	.byte	84
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L121:
+.L259:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -618,5 +1193,9 @@ _999001_lastDir:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('Motor_keypad_PWM')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L121,.L37,.L47-.L37
+	.word	.L259,.L65,.L82-.L65
+	.sdecl	'.debug_frame',debug,cluster('MotorDrive')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L259,.L67,.L88-.L67
 	; Module end

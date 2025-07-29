@@ -1,60 +1,55 @@
 #include "main.h"
-#include <stdint.h>
-#include <string.h>
-
-extern void delay_ms(unsigned int ms);
-
-extern volatile int flag;
 
 char c;
-
 
 // 전역 변수
 volatile int currentDuty = 0;   // a~g 키로 duty값을 변경한다.
 volatile int baseDuty = 0;    // ← 항상 기억해둘 기본 속도
 volatile char  currentDir  = '5'; // '8','2','4','6','1','3','7','9' 중 하나, 기본은 정지('5')
-void core0_main (void)
-{
-    // Init 함수//
 
+// 인증 관련 선언
+#define MAX_PASS_LEN 16
+volatile int isUnlocked = 0; // 잠금(0), 해제(1)
+const char storedPassword[] = "12345678";
+char passwordBuffer[MAX_PASS_LEN + 1];
+int passIndex = 0;
+
+void core0_main(void) {
     SYSTEM_Init();
 
-    float distance;
+    Bluetooth_printf("연결 성공\n");
+
 
     while (1) {
-        //char c = Bluetooth_RecvByteNonBlocked();
 
-        my_printf("%c\n", c);
-        // 비상 해제
-        if (c == 'r') {
-            flag = 0;
-        }
-        // 전진/후진 등 방향키
-        else if (c == '8' || c == '2' || c == '4' || c == '6' || c == '5' ||
-                 c == '1' || c == '3' || c == '7' || c == '9') {
-            currentDir = c;
-            currentDuty = baseDuty;  // ← 이전 속도로 복원
-            Asclin1_OutUart(c);
-        }
-        // 속도 변경키
-        else if (c == 'a') baseDuty = 10;
-        else if (c == 's') baseDuty = 20;
-        else if (c == 'd') baseDuty = 30;
-        else if (c == 'f') baseDuty = 40;
-        else if (c == 'g') baseDuty = 50;
+        c = Bluetooth_RecvByteNonBlocked();
 
-        else if (c == 'B') {
-            if (currentDuty > 0) {
-                currentDuty = (currentDuty >= 10) ? currentDuty - 10 : 0;
+        if (!isUnlocked) {
+            if (c == '\n' || c == '\r') {
+                // 문자열 종료 전에 개행 문자 제거
+                while (passIndex > 0 &&
+                          (passwordBuffer[passIndex - 1] == '\n' || passwordBuffer[passIndex - 1] == '\r')) {
+                        passIndex--;
+                    }
+
+                passwordBuffer[passIndex] = '\0';
+                if (strcmp(passwordBuffer, storedPassword) == 0) {
+                    isUnlocked = 1;
+                    my_printf("잠금 해제\n");
+                }
+                else {
+                    my_printf("비밀번호가 틀렸습니다\n");
+                }
+                passIndex = 0;
             }
-        }
-        // 장애물 멈춤
-        if (flag == 1) {
-            // 멈추기
-            Motor_stopChA();
-            Motor_stopChB();
+            else if (passIndex < MAX_PASS_LEN) {
+                passwordBuffer[passIndex++] = c;
+                my_printf("%c", c);
+            }
             continue;
         }
+
+        MotorDrive(c, isUnlocked);
 
         // 최종 동작 호출: 이전에 저장한 방향 + 속도로
         Motor_keypad_PWM(currentDir, currentDuty);

@@ -17,24 +17,17 @@ void TofIsrHandler(void)
     unsigned char dis_status = rxData[3];
     unsigned short signal_strength = rxData[5] << 8 | rxData[4];
 
-
-
     if (signal_strength != 0) {
         g_TofValue = rxData[2] << 16 | rxData[1] << 8 | rxData[0];
 
-        if (g_TofValue < 300) {
+        if (g_TofValue < 515) {
             flag = 1;
-            Motor_stopChA();
-            Motor_stopChB();
-            my_printf("인터럽트 급정거");
+
         }
-        my_printf("TOF Distance: %d\n", g_TofValue); // for debugging
-    } else {
-        my_printf("out of range!\n"); // for debugging
     }
 }
 
-unsigned int Tof_GetValue(void)
-{
-    return g_TofValue;
-}
+//unsigned int Tof_GetValue(void)
+//{
+//    return g_TofValue;
+//}
